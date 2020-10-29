@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  ORIOSSummary
+//
+//  Created by orilme on 2020/1/17.
+//  Copyright © 2020 orilme. All rights reserved.
+//
+
+//创建pch文件步骤
+//1.创建pch文件
+//2.Project > Build Settings > 搜索 “Prefix Header“；
+//3.Prefix Header下添加pch文件的路径
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "AppDelegate.h"
+
+//常量文件
+#import "Constants.h"
+#import "NotificationContants.h"
+
+//宏文件
+#import "Macros.h"
+#import "ThirdMacros.h"
+#import "TargetConfigMacros.h"//日志的宏文件
+
+#import "GVUserDefaults+BBProperties.h"//引导页用
+#endif
+
+
+#endif /* PrefixHeader_pch */
