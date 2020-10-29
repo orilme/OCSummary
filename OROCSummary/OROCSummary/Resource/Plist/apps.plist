@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>111</string>
+		<key>icon</key>
+		<string>http://img5.duitang.com/uploads/item/201411/18/20141118201614_8Bjax.thumb.700_0.jpeg</string>
+		<key>download</key>
+		<string>10311万</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>2222</string>
+		<key>icon</key>
+		<string>http://img3.duitang.com/uploads/item/201608/09/20160809192358_H5mwV.thumb.700_0.jpeg</string>
+		<key>download</key>
+		<string>9982万</string>
+	</dict>
+</array>
+</plist>

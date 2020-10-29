@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OROCSummary' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OROCSummary
+  pod 'ORModules', :path => '../' # 自己的组件库
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'MJRefresh', '~> 3.4.3'
+  pod 'Masonry', '~> 1.1.0'
+  pod 'SDWebImage', '~> 5.8.4'
+  pod 'WechatOpenSDK', '~> 1.8.7'
+  pod 'CYLTabBarController', '~> 1.29.0'
+  pod 'CTMediator'
+
+  target 'OROCSummaryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OROCSummaryUITests' do
+    # Pods for testing
+  end
+
+end

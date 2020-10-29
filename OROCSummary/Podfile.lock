@@ -1,0 +1,87 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (44)
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - HandyFrame (1.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.3)
+  - ORModules (0.7.5):
+    - ORModules/A (= 0.7.5)
+    - ORModules/A_Category (= 0.7.5)
+    - ORModules/B_Category (= 0.7.5)
+    - ORModules/BaseViewController (= 0.7.5)
+    - ORModules/UIKit (= 0.7.5)
+  - ORModules/A (0.7.5):
+    - CTMediator
+    - HandyFrame
+    - ORModules/B_Category
+  - ORModules/A_Category (0.7.5):
+    - CTMediator
+  - ORModules/B_Category (0.7.5):
+    - CTMediator
+  - ORModules/BaseViewController (0.7.5)
+  - ORModules/UIKit (0.7.5)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - WechatOpenSDK (1.8.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - CTMediator
+  - CYLTabBarController (~> 1.29.0)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
+  - MJRefresh (~> 3.4.3)
+  - ORModules (from `../`)
+  - SDWebImage (~> 5.8.4)
+  - WechatOpenSDK (~> 1.8.7)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CTMediator
+    - CYLTabBarController
+    - HandyFrame
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  ORModules:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  ORModules: e1eb0a258d7abd8c44143498047ea6ae5666d5b0
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  WechatOpenSDK: 7cd4d3386fb6ba5595d5fb863e0a3bfd43bc6768
+
+PODFILE CHECKSUM: d8daa93c896798261f1c060dd90a21750669ae82
+
+COCOAPODS: 1.9.1

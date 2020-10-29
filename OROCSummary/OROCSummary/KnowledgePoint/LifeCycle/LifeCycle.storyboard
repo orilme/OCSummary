@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QJ6-Qo-1gl">
+            <objects>
+                <navigationController storyboardIdentifier="LifeCycle" id="FcT-zQ-03K" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BAb-e7-Urn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VtI-IY-2IL" kind="relationship" relationship="rootViewController" id="vLv-0l-LQh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ku9-Tl-XQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1269" y="466"/>
+        </scene>
+        <!--第一个控制器-->
+        <scene sceneID="ACS-L0-v9h">
+            <objects>
+                <viewController storyboardIdentifier="LifeCycleOneVC" id="VtI-IY-2IL" customClass="LifeCycleOneVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LBx-V6-DrM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tqp-n9-v7a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wBN-8r-3Qj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvS-A4-69j">
+                                <rect key="frame" x="81" y="312" width="252" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="进入 下一个控制器">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kd0-lP-vBI" kind="push" id="gGw-rX-ly6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qpZ-Qe-sPb"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zvS-A4-69j"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="zvS-A4-69j"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一个控制器" id="XJ4-kT-kIf">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="IpT-zc-S5L"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="qIE-ds-qRr">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jKQ-ea-Ggq">
+                                <rect key="frame" x="20" y="7" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="8R8-Mw-PAO"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pG9-Jm-G2a" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-208.69565217391306" y="465.40178571428567"/>
+        </scene>
+        <!--第二个控制器-->
+        <scene sceneID="kQr-tg-V8b">
+            <objects>
+                <viewController storyboardIdentifier="LifeCycleTwoVC" id="Kd0-lP-vBI" customClass="LifeCycleTwoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n5i-RD-GSo"/>
+                        <viewControllerLayoutGuide type="bottom" id="iUu-Xx-Fpk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v2J-U1-Xuo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-BT-KaD">
+                                <rect key="frame" x="80" y="303" width="255" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="进入第三个控制器">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fd0-sp-nN8" kind="push" id="xLH-xT-eWT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="MrH-37-IPZ"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8Jt-BT-KaD"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8Jt-BT-KaD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二个控制器" id="knc-P1-pkp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BxM-dM-UIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524.63768115942037" y="465.40178571428567"/>
+        </scene>
+        <!--第三个控制器-->
+        <scene sceneID="nAf-8E-WV8">
+            <objects>
+                <viewController storyboardIdentifier="LifeCycleThreeVC" id="Fd0-sp-nN8" customClass="LifeCycleThreeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kJc-HX-d9P"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q07-kL-Sf7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u5K-bD-6DF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3o-ua-Exc">
+                                <rect key="frame" x="76" y="297" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="返回根控制器">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backOneVc" destination="Fd0-sp-nN8" eventType="touchUpInside" id="zfV-Fq-EQK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vdm-Vi-P6P"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="I3o-ua-Exc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="I3o-ua-Exc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="第三个控制器" id="6Ha-uL-7hL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ibg-mp-eLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214.4927536231885" y="465.40178571428567"/>
+        </scene>
+    </scenes>
+</document>

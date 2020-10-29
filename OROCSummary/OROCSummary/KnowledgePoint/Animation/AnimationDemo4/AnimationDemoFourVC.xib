@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimationDemoFourVC">
+            <connections>
+                <outlet property="detailBtn" destination="K5g-ej-UoW" id="ARm-y3-VQi"/>
+                <outlet property="disLikeButton" destination="5fd-Kr-ZLQ" id="LTf-fP-Fea"/>
+                <outlet property="likeButton" destination="RnG-mA-yMN" id="bXG-el-D1h"/>
+                <outlet property="view" destination="mKX-Se-MBU" id="ii1-q4-n6O"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mKX-Se-MBU">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5g-ej-UoW">
+                    <rect key="frame" x="193" y="589.5" width="28" height="28"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="7Jq-1u-pOd"/>
+                        <constraint firstAttribute="height" constant="28" id="gzz-rt-zGM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <state key="normal" image="userInfo.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="reloadDataEvent:" destination="-1" eventType="touchUpInside" id="nhm-Je-ujA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnG-mA-yMN">
+                    <rect key="frame" x="217.5" y="518.5" width="170" height="170"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" image="liked.png"/>
+                    <connections>
+                        <action selector="likeEvent:" destination="-1" eventType="touchUpInside" id="uBX-ay-Ghn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fd-Kr-ZLQ">
+                    <rect key="frame" x="26.5" y="518.5" width="170" height="170"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5fd-Kr-ZLQ" secondAttribute="height" multiplier="1:1" id="qxH-kl-tx6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" image="nope.png"/>
+                    <connections>
+                        <action selector="dislikeEvent:" destination="-1" eventType="touchUpInside" id="pRx-HC-2ct"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5fd-Kr-ZLQ" firstAttribute="centerX" secondItem="mKX-Se-MBU" secondAttribute="centerX" constant="-95.5" id="0Se-RW-9zs"/>
+                <constraint firstItem="RnG-mA-yMN" firstAttribute="centerX" secondItem="mKX-Se-MBU" secondAttribute="centerX" constant="95.5" id="Brc-hl-W19"/>
+                <constraint firstItem="RnG-mA-yMN" firstAttribute="bottom" secondItem="5fd-Kr-ZLQ" secondAttribute="bottom" id="J0V-ee-rD9"/>
+                <constraint firstItem="K5g-ej-UoW" firstAttribute="centerY" secondItem="5fd-Kr-ZLQ" secondAttribute="centerY" id="Pw3-P9-kZn"/>
+                <constraint firstItem="K5g-ej-UoW" firstAttribute="centerX" secondItem="mKX-Se-MBU" secondAttribute="centerX" id="Qqd-A1-rg8"/>
+                <constraint firstItem="5fd-Kr-ZLQ" firstAttribute="centerY" secondItem="mKX-Se-MBU" secondAttribute="centerY" constant="155.5" id="ejx-xt-PrM"/>
+                <constraint firstItem="RnG-mA-yMN" firstAttribute="top" secondItem="5fd-Kr-ZLQ" secondAttribute="top" id="qdd-0y-YJY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="QX8-ed-iXQ"/>
+            <point key="canvasLocation" x="141" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="liked.png" width="85" height="85"/>
+        <image name="nope.png" width="85" height="85"/>
+        <image name="userInfo.png" width="56" height="56"/>
+    </resources>
+</document>
