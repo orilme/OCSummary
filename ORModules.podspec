@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ORModules'
-  s.version          = '0.7.4'
+  s.version          = '0.7.5'
   s.summary          = '组件化.'
 
   s.description      = <<-DESC
