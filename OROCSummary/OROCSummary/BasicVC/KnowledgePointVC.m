@@ -27,6 +27,7 @@
       @"value": @[@{@"menuName": @"知识点", @"className": @"BasicKnowledgeVC"},
                 @{@"menuName": @"算法-递归", @"className": @"RecursiveVC"},
                 @{@"menuName": @"VC生命周期", @"className": @"LifeCycleOneVC"},
+                @{@"menuName": @"view 常用方法", @"className": @"ViewMethodVC"},
                 @{@"menuName": @"继承", @"className": @"InheritVC"},
                 @{@"menuName": @"枚举", @"className": @"EnumVC"},
                 @{@"menuName": @"分类和类扩展", @"className": @"CategoryVC"},
@@ -135,8 +136,8 @@
                     @{@"menuName": @"AnimationDemo3", @"className": @"AnimationDemoThreeVC"},
                     @{@"menuName": @"类似于探探翻页动画", @"className": @"AnimationDemoFourVC"},
                     @{@"menuName": @"仿真动画", @"className": @"UIDynamicController"},]}.mutableCopy,
-    // 持久化存储
-    @{@"headName": @"持久化存储",
+    // 持久化存储、缓存
+    @{@"headName": @"持久化存储、缓存",
       @"isFold": @"1",
       @"value":   @[@{@"menuName": @"Plist存储", @"className": @"PlistVC"},
                     @{@"menuName": @"UserDefaults", @"className": @"UserDefaultsVC"},

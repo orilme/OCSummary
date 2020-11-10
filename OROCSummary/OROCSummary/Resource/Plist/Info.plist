@@ -65,6 +65,10 @@
 	<array>
 		<string>weixin</string>
 		<string>weixinULAPI</string>
+		<string>baidumap</string>
+		<string>iosamap</string>
+		<string>comgooglemaps</string>
+		<string>qqmap</string>
 	</array>
 </dict>
 </plist>

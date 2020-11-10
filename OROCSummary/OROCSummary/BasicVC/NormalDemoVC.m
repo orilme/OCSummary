@@ -67,7 +67,8 @@
     // 地图
     @{@"headName": @"地图",
       @"isFold": @"1",
-      @"value": @[@{@"menuName": @"苹果地图-CoreLocationVC", @"className": @"CoreLocationVC"},
+      @"value": @[@{@"menuName": @"跳转到地图应用导航 (苹果地图，高德，百度，腾讯，谷歌)", @"className": @"MapJumpVC"},
+                  @{@"menuName": @"苹果地图-CoreLocationVC", @"className": @"CoreLocationVC"},
                   @{@"menuName": @"苹果地图-MapKit", @"className": @"MKMapViewVC"},
                   @{@"menuName": @"苹果地图-大头针", @"className": @"MKMapAnnotationVC"},
                   @{@"menuName": @"苹果地图-导航", @"className": @"MKMapNavigationVC"},

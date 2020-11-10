@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewMethodVC">
+            <connections>
+                <outlet property="aView" destination="oAu-0E-09K" id="5HE-cP-hkD"/>
+                <outlet property="bView" destination="EF6-sR-wZf" id="CJh-Fw-zOD"/>
+                <outlet property="testImgView" destination="1JO-YK-gFI" id="vpu-2t-tTu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5a-t4-dEP">
+                    <rect key="frame" x="324" y="95" width="70" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="eeK-h6-M6w"/>
+                        <constraint firstAttribute="height" constant="30" id="xlj-bC-Nqh"/>
+                    </constraints>
+                    <state key="normal" title="开始"/>
+                    <connections>
+                        <action selector="btnCLick:" destination="-1" eventType="touchUpInside" id="HgE-dP-xm1"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="aimage" translatesAutoresizingMaskIntoConstraints="NO" id="1JO-YK-gFI">
+                    <rect key="frame" x="30" y="54" width="134" height="113"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="113" id="H0l-jA-ljr"/>
+                        <constraint firstAttribute="width" constant="134" id="hbq-NQ-g3y"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAu-0E-09K">
+                    <rect key="frame" x="100" y="244" width="200" height="300"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EF6-sR-wZf">
+                            <rect key="frame" x="50" y="50" width="100" height="200"/>
+                            <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="a4l-uh-zBN"/>
+                                <constraint firstAttribute="width" constant="100" id="cnY-Xw-UXl"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="6qU-92-ZP8"/>
+                        <constraint firstItem="EF6-sR-wZf" firstAttribute="top" secondItem="oAu-0E-09K" secondAttribute="top" constant="50" id="m3g-Uq-NyY"/>
+                        <constraint firstItem="EF6-sR-wZf" firstAttribute="leading" secondItem="oAu-0E-09K" secondAttribute="leading" constant="50" id="vh4-Sw-sij"/>
+                        <constraint firstAttribute="height" constant="300" id="xig-1J-FEx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="1JO-YK-gFI" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="9HP-zx-noM"/>
+                <constraint firstItem="oAu-0E-09K" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="200" id="UYT-e7-7eI"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="p5a-t4-dEP" secondAttribute="trailing" constant="20" id="efi-Kq-08w"/>
+                <constraint firstItem="p5a-t4-dEP" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="51" id="mJA-5f-I2o"/>
+                <constraint firstItem="oAu-0E-09K" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="100" id="sLt-tc-cRK"/>
+                <constraint firstItem="1JO-YK-gFI" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="yre-CG-IQR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="140.57971014492756" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aimage" width="480" height="400"/>
+    </resources>
+</document>
