@@ -48,22 +48,21 @@
 // 控制器设置
 - (NSArray *)mpViewControllers {
     
-    UIViewController *firstViewController = [[StudyVC alloc] init];
+    UIViewController *firstViewController = [[KnowledgePointVC alloc] init];
     UINavigationController *firstNavigationController = [[ORBaseNavigationController alloc]
                                                          initWithRootViewController:firstViewController];
     
-    UIViewController *secondViewController = [[KnowledgePointVC alloc] init];
+    UIViewController *secondViewController = [[NormalDemoVC alloc] init];
     UINavigationController *secondNavigationController = [[ORBaseNavigationController alloc]
                                                          initWithRootViewController:secondViewController];
     
-    UIViewController *thirdViewController = [[NormalDemoVC alloc] init];
+    UIViewController *thirdViewController = [[VenderExploreVC alloc] init];
     UINavigationController *thirdNavigationController = [[ORBaseNavigationController alloc]
-                                                         initWithRootViewController:thirdViewController];
+                                                          initWithRootViewController:thirdViewController];
     
-    UIViewController *fourthViewController = [[VenderExploreVC alloc] init];
+    UIViewController *fourthViewController = [[StudyVC alloc] init];
     UINavigationController *fourthNavigationController = [[ORBaseNavigationController alloc]
-                                                          initWithRootViewController:fourthViewController];
-    
+                                                         initWithRootViewController:fourthViewController];
     
     NSArray *viewControllers = @[
                                  firstNavigationController,
@@ -77,22 +76,22 @@
 // TabBar文字跟图标设置
 - (NSArray *)tabBarItemsAttributesForController {
     NSDictionary *firstTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"学习",
+                                                 CYLTabBarItemTitle : @"知识点",
                                                  CYLTabBarItemImage : @"account_normal",
                                                  CYLTabBarItemSelectedImage : @"account_highlight"
                                                  };
     NSDictionary *secondTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"知识点",
+                                                  CYLTabBarItemTitle : @"demo",
                                                   CYLTabBarItemImage : @"account_normal",
                                                   CYLTabBarItemSelectedImage : @"account_highlight"
                                                   };
     NSDictionary *thirdTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"demo",
+                                                 CYLTabBarItemTitle : @"三方库",
                                                  CYLTabBarItemImage : @"account_normal",
                                                  CYLTabBarItemSelectedImage : @"account_highlight"
                                                  };
     NSDictionary *fourthTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"三方库",
+                                                  CYLTabBarItemTitle : @"学习",
                                                   CYLTabBarItemImage : @"account_normal",
                                                   CYLTabBarItemSelectedImage : @"account_highlight"
                                                   };

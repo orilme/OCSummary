@@ -520,8 +520,8 @@
 		4149EABF254ABDF9005B0447 /* NavigationOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E979254ABDF7005B0447 /* NavigationOneVC.m */; };
 		4149EAC0254ABDF9005B0447 /* NavigationTwoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4149E97A254ABDF7005B0447 /* NavigationTwoVC.xib */; };
 		4149EAC1254ABDF9005B0447 /* PointerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E97D254ABDF7005B0447 /* PointerVC.m */; };
-		4149EAC2254ABDF9005B0447 /* RecursiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E980254ABDF7005B0447 /* RecursiveVC.m */; };
-		4149EAC3254ABDF9005B0447 /* SequenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E981254ABDF7005B0447 /* SequenceVC.m */; };
+		4149EAC2254ABDF9005B0447 /* AlRecursiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E980254ABDF7005B0447 /* AlRecursiveVC.m */; };
+		4149EAC3254ABDF9005B0447 /*  AlgorithmBasicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E981254ABDF7005B0447 /*  AlgorithmBasicVC.m */; };
 		4149EAC4254ABDF9005B0447 /* UITextViewAutoHeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E985254ABDF7005B0447 /* UITextViewAutoHeightVC.m */; };
 		4149EAC5254ABDF9005B0447 /* UITextViewAutoHeightVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4149E986254ABDF7005B0447 /* UITextViewAutoHeightVC.xib */; };
 		4149EAC6254ABDF9005B0447 /* ExceptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E98A254ABDF7005B0447 /* ExceptionVC.m */; };
@@ -590,6 +590,9 @@
 		414AEB7B254BAC6C00E3319C /* MKMapViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414AEB70254BAC6C00E3319C /* MKMapViewVC.xib */; };
 		414AEB7F254BAC9300E3319C /* MapJumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AEB7E254BAC9300E3319C /* MapJumpVC.m */; };
 		414AEB83254BACC100E3319C /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AEB81254BACC100E3319C /* JZLocationConverter.m */; };
+		4181D558255D41FB00B78863 /* AlBinaryTreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181D557255D41FB00B78863 /* AlBinaryTreeVC.m */; };
+		4181D55B255D42DA00B78863 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181D55A255D42DA00B78863 /* BinaryTreeNode.m */; };
+		4181D55E255D43D900B78863 /* AlgorithmDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181D55D255D43D900B78863 /* AlgorithmDemoVC.m */; };
 		41E3705625593CF100AA9AB5 /* LifeCycle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3704B25593CF100AA9AB5 /* LifeCycle.storyboard */; };
 		41E3705725593CF100AA9AB5 /* LifeCycleOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E3704C25593CF100AA9AB5 /* LifeCycleOneVC.m */; };
 		41E3705825593CF100AA9AB5 /* LifeCycleThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E3704D25593CF100AA9AB5 /* LifeCycleThreeVC.m */; };
@@ -1516,10 +1519,10 @@
 		4149E97B254ABDF7005B0447 /* NavigationTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTwoVC.h; sourceTree = "<group>"; };
 		4149E97D254ABDF7005B0447 /* PointerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerVC.m; sourceTree = "<group>"; };
 		4149E97E254ABDF7005B0447 /* PointerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerVC.h; sourceTree = "<group>"; };
-		4149E980254ABDF7005B0447 /* RecursiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursiveVC.m; sourceTree = "<group>"; };
-		4149E981254ABDF7005B0447 /* SequenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequenceVC.m; sourceTree = "<group>"; };
-		4149E982254ABDF7005B0447 /* RecursiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecursiveVC.h; sourceTree = "<group>"; };
-		4149E983254ABDF7005B0447 /* SequenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceVC.h; sourceTree = "<group>"; };
+		4149E980254ABDF7005B0447 /* AlRecursiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlRecursiveVC.m; sourceTree = "<group>"; };
+		4149E981254ABDF7005B0447 /*  AlgorithmBasicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = " AlgorithmBasicVC.m"; sourceTree = "<group>"; };
+		4149E982254ABDF7005B0447 /* AlRecursiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlRecursiveVC.h; sourceTree = "<group>"; };
+		4149E983254ABDF7005B0447 /*  AlgorithmBasicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = " AlgorithmBasicVC.h"; sourceTree = "<group>"; };
 		4149E985254ABDF7005B0447 /* UITextViewAutoHeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewAutoHeightVC.m; sourceTree = "<group>"; };
 		4149E986254ABDF7005B0447 /* UITextViewAutoHeightVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITextViewAutoHeightVC.xib; sourceTree = "<group>"; };
 		4149E987254ABDF7005B0447 /* UITextViewAutoHeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewAutoHeightVC.h; sourceTree = "<group>"; };
@@ -1647,6 +1650,12 @@
 		414AEB7E254BAC9300E3319C /* MapJumpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapJumpVC.m; sourceTree = "<group>"; };
 		414AEB81254BACC100E3319C /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
 		414AEB82254BACC100E3319C /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		4181D556255D41FB00B78863 /* AlBinaryTreeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlBinaryTreeVC.h; sourceTree = "<group>"; };
+		4181D557255D41FB00B78863 /* AlBinaryTreeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlBinaryTreeVC.m; sourceTree = "<group>"; };
+		4181D559255D42DA00B78863 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		4181D55A255D42DA00B78863 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
+		4181D55C255D43D900B78863 /* AlgorithmDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmDemoVC.h; sourceTree = "<group>"; };
+		4181D55D255D43D900B78863 /* AlgorithmDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmDemoVC.m; sourceTree = "<group>"; };
 		41E3704B25593CF100AA9AB5 /* LifeCycle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LifeCycle.storyboard; sourceTree = "<group>"; };
 		41E3704C25593CF100AA9AB5 /* LifeCycleOneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCycleOneVC.m; sourceTree = "<group>"; };
 		41E3704D25593CF100AA9AB5 /* LifeCycleThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCycleThreeVC.m; sourceTree = "<group>"; };
@@ -1791,14 +1800,14 @@
 				4149E48D254ABD2A005B0447 /* ORBaseNavigationController.m */,
 				4149E48C254ABD2A005B0447 /* ORHomeViewController.h */,
 				4149E493254ABD2A005B0447 /* ORHomeViewController.m */,
-				4149E496254ABD2A005B0447 /* StudyVC.h */,
-				4149E48E254ABD2A005B0447 /* StudyVC.m */,
 				4149E491254ABD2A005B0447 /* KnowledgePointVC.h */,
 				4149E48B254ABD2A005B0447 /* KnowledgePointVC.m */,
 				4149E490254ABD2A005B0447 /* NormalDemoVC.h */,
 				4149E494254ABD2A005B0447 /* NormalDemoVC.m */,
 				4149E495254ABD2A005B0447 /* VenderExploreVC.h */,
 				4149E48F254ABD2A005B0447 /* VenderExploreVC.m */,
+				4149E496254ABD2A005B0447 /* StudyVC.h */,
+				4149E48E254ABD2A005B0447 /* StudyVC.m */,
 			);
 			path = BasicVC;
 			sourceTree = "<group>";
@@ -2625,7 +2634,6 @@
 				4149E97F254ABDF7005B0447 /*  Algorithm */,
 				4149E984254ABDF7005B0447 /* UITextViewAutoHeight */,
 				4149E988254ABDF7005B0447 /* Exception */,
-				4149E98B254ABDF7005B0447 /* CLanguage */,
 				4149E98C254ABDF7005B0447 /* Keyboard */,
 				4149E99B254ABDF7005B0447 /* Block */,
 			);
@@ -2890,25 +2898,25 @@
 		4149E7B9254ABDF5005B0447 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				4149E7BA254ABDF5005B0447 /* RuntimeExploreVC.m */,
-				4149E7BB254ABDF5005B0447 /* RuntimeButtonVC.m */,
-				4149E7BC254ABDF5005B0447 /* UIButton+touch.h */,
-				4149E7BD254ABDF5005B0447 /* Persons.json */,
-				4149E7BE254ABDF5005B0447 /* RuntimeForwardMethodVC.h */,
-				4149E7BF254ABDF5005B0447 /* RuntimePersonModel.h */,
-				4149E7C0254ABDF5005B0447 /* RuntimeSignatureMethodVC.m */,
-				4149E7C1254ABDF5005B0447 /* RuntimeResolveMethodVC.m */,
-				4149E7C2254ABDF5005B0447 /* RuntimeExploreInfo+RuntimeAddProperty.h */,
-				4149E7C3254ABDF5005B0447 /* RuntimeExploreInfo.m */,
-				4149E7C4254ABDF5005B0447 /* UIButton+touch.m */,
 				4149E7C5254ABDF5005B0447 /* RuntimeExploreVC.h */,
+				4149E7BA254ABDF5005B0447 /* RuntimeExploreVC.m */,
 				4149E7C6254ABDF5005B0447 /* RuntimeButtonVC.h */,
-				4149E7C7254ABDF5005B0447 /* RuntimePersonModel.m */,
-				4149E7C8254ABDF5005B0447 /* RuntimeForwardMethodVC.m */,
+				4149E7BB254ABDF5005B0447 /* RuntimeButtonVC.m */,
 				4149E7C9254ABDF5005B0447 /* RuntimeExploreInfo.h */,
+				4149E7C3254ABDF5005B0447 /* RuntimeExploreInfo.m */,
+				4149E7C2254ABDF5005B0447 /* RuntimeExploreInfo+RuntimeAddProperty.h */,
 				4149E7CA254ABDF5005B0447 /* RuntimeExploreInfo+RuntimeAddProperty.m */,
-				4149E7CB254ABDF5005B0447 /* RuntimeSignatureMethodVC.h */,
+				4149E7BE254ABDF5005B0447 /* RuntimeForwardMethodVC.h */,
+				4149E7C8254ABDF5005B0447 /* RuntimeForwardMethodVC.m */,
+				4149E7BF254ABDF5005B0447 /* RuntimePersonModel.h */,
+				4149E7C7254ABDF5005B0447 /* RuntimePersonModel.m */,
 				4149E7CC254ABDF5005B0447 /* RuntimeResolveMethodVC.h */,
+				4149E7C1254ABDF5005B0447 /* RuntimeResolveMethodVC.m */,
+				4149E7CB254ABDF5005B0447 /* RuntimeSignatureMethodVC.h */,
+				4149E7C0254ABDF5005B0447 /* RuntimeSignatureMethodVC.m */,
+				4149E7BC254ABDF5005B0447 /* UIButton+touch.h */,
+				4149E7C4254ABDF5005B0447 /* UIButton+touch.m */,
+				4149E7BD254ABDF5005B0447 /* Persons.json */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -2917,20 +2925,20 @@
 			isa = PBXGroup;
 			children = (
 				4149E7D7254ABDF5005B0447 /* AnimationDemo */,
-				4149E7E2254ABDF5005B0447 /* CAAnimationGroupVC.h */,
-				4149E7E3254ABDF5005B0447 /* CABasicAnimationVC.m */,
-				4149E7E4254ABDF5005B0447 /* CATransitionVC.h */,
-				4149E7E5254ABDF5005B0447 /* UIViewAnimationVC.h */,
-				4149E7E6254ABDF5005B0447 /* AnimationReadMe.md */,
-				4149E7E7254ABDF5005B0447 /* CAKeyframeAnimationVC.h */,
-				4149E7E8254ABDF5005B0447 /* CABasicAnimationVC.h */,
-				4149E7E9254ABDF5005B0447 /* CAAnimationGroupVC.m */,
-				4149E7EA254ABDF5005B0447 /* CATransitionVC.m */,
-				4149E7EB254ABDF5005B0447 /* UIViewAnimationVC.m */,
-				4149E7EC254ABDF5005B0447 /* CAKeyframeAnimationVC.m */,
 				4149E7ED254ABDF5005B0447 /* AnimationDemo2 */,
-				4149E7FC254ABDF5005B0447 /* AnimationDemo4 */,
 				4149E815254ABDF5005B0447 /* AnimationDemo3 */,
+				4149E7FC254ABDF5005B0447 /* AnimationDemo4 */,
+				4149E7E6254ABDF5005B0447 /* AnimationReadMe.md */,
+				4149E7E8254ABDF5005B0447 /* CABasicAnimationVC.h */,
+				4149E7E3254ABDF5005B0447 /* CABasicAnimationVC.m */,
+				4149E7E7254ABDF5005B0447 /* CAKeyframeAnimationVC.h */,
+				4149E7EC254ABDF5005B0447 /* CAKeyframeAnimationVC.m */,
+				4149E7E2254ABDF5005B0447 /* CAAnimationGroupVC.h */,
+				4149E7E9254ABDF5005B0447 /* CAAnimationGroupVC.m */,
+				4149E7E4254ABDF5005B0447 /* CATransitionVC.h */,
+				4149E7EA254ABDF5005B0447 /* CATransitionVC.m */,
+				4149E7E5254ABDF5005B0447 /* UIViewAnimationVC.h */,
+				4149E7EB254ABDF5005B0447 /* UIViewAnimationVC.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -2938,16 +2946,16 @@
 		4149E7D7254ABDF5005B0447 /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4149E7D8254ABDF5005B0447 /* OBShapedButton.h */,
-				4149E7D9254ABDF5005B0447 /* UIImage+ColorAtPixel.m */,
 				4149E7DA254ABDF5005B0447 /* AnimationDemoVC.h */,
-				4149E7DB254ABDF5005B0447 /* CZBottomMenu.h */,
-				4149E7DC254ABDF5005B0447 /* CZBottomMenu.xib */,
 				4149E7DD254ABDF5005B0447 /* AnimationDemoVC.m */,
-				4149E7DE254ABDF5005B0447 /* UIImage+ColorAtPixel.h */,
-				4149E7DF254ABDF5005B0447 /* OBShapedButton.m */,
-				4149E7E0254ABDF5005B0447 /* CZBottomMenu.m */,
 				4149E7E1254ABDF5005B0447 /* AnimationDemoVC.xib */,
+				4149E7DB254ABDF5005B0447 /* CZBottomMenu.h */,
+				4149E7E0254ABDF5005B0447 /* CZBottomMenu.m */,
+				4149E7DC254ABDF5005B0447 /* CZBottomMenu.xib */,
+				4149E7D8254ABDF5005B0447 /* OBShapedButton.h */,
+				4149E7DF254ABDF5005B0447 /* OBShapedButton.m */,
+				4149E7DE254ABDF5005B0447 /* UIImage+ColorAtPixel.h */,
+				4149E7D9254ABDF5005B0447 /* UIImage+ColorAtPixel.m */,
 			);
 			path = AnimationDemo;
 			sourceTree = "<group>";
@@ -2955,20 +2963,20 @@
 		4149E7ED254ABDF5005B0447 /* AnimationDemo2 */ = {
 			isa = PBXGroup;
 			children = (
-				4149E7EE254ABDF5005B0447 /* TriangleLayer.h */,
-				4149E7EF254ABDF5005B0447 /* UIColor+Hex.m */,
-				4149E7F0254ABDF5005B0447 /* WaveLayer.m */,
-				4149E7F1254ABDF5005B0447 /* RectangleLayer.m */,
 				4149E7F2254ABDF5005B0447 /* AnimatiomView.h */,
+				4149E7FA254ABDF5005B0447 /* AnimatiomView.m */,
 				4149E7F3254ABDF5005B0447 /* AnimationDemoTwoVC.h */,
+				4149E7F9254ABDF5005B0447 /* AnimationDemoTwoVC.m */,
+				4149E7F8254ABDF5005B0447 /* CircleLayer.h */,
 				4149E7F4254ABDF5005B0447 /* CircleLayer.m */,
+				4149E7FB254ABDF5005B0447 /* RectangleLayer.h */,
+				4149E7F1254ABDF5005B0447 /* RectangleLayer.m */,
+				4149E7EE254ABDF5005B0447 /* TriangleLayer.h */,
 				4149E7F5254ABDF5005B0447 /* TriangleLayer.m */,
 				4149E7F6254ABDF5005B0447 /* UIColor+Hex.h */,
+				4149E7EF254ABDF5005B0447 /* UIColor+Hex.m */,
 				4149E7F7254ABDF5005B0447 /* WaveLayer.h */,
-				4149E7F8254ABDF5005B0447 /* CircleLayer.h */,
-				4149E7F9254ABDF5005B0447 /* AnimationDemoTwoVC.m */,
-				4149E7FA254ABDF5005B0447 /* AnimatiomView.m */,
-				4149E7FB254ABDF5005B0447 /* RectangleLayer.h */,
+				4149E7F0254ABDF5005B0447 /* WaveLayer.m */,
 			);
 			path = AnimationDemo2;
 			sourceTree = "<group>";
@@ -2977,12 +2985,12 @@
 			isa = PBXGroup;
 			children = (
 				4149E7FD254ABDF5005B0447 /* Resources */,
-				4149E80A254ABDF5005B0447 /* AnimationDemoFourVC.h */,
-				4149E80B254ABDF5005B0447 /* CustomCardView.h */,
 				4149E80C254ABDF5005B0447 /* CCDraggableCard */,
-				4149E812254ABDF5005B0447 /* AnimationDemoFourVC.xib */,
-				4149E813254ABDF5005B0447 /* CustomCardView.m */,
+				4149E80A254ABDF5005B0447 /* AnimationDemoFourVC.h */,
 				4149E814254ABDF5005B0447 /* AnimationDemoFourVC.m */,
+				4149E812254ABDF5005B0447 /* AnimationDemoFourVC.xib */,
+				4149E80B254ABDF5005B0447 /* CustomCardView.h */,
+				4149E813254ABDF5005B0447 /* CustomCardView.m */,
 			);
 			path = AnimationDemo4;
 			sourceTree = "<group>";
@@ -3021,18 +3029,18 @@
 		4149E815254ABDF5005B0447 /* AnimationDemo3 */ = {
 			isa = PBXGroup;
 			children = (
-				4149E816254ABDF5005B0447 /* SnowView.h */,
-				4149E817254ABDF5005B0447 /* YUReplicatorAnimation.h */,
-				4149E818254ABDF5005B0447 /* YUAnimationViewController.m */,
-				4149E819254ABDF5005B0447 /* YULoadingLabel.m */,
-				4149E81A254ABDF5005B0447 /* EmitterLayerView.m */,
-				4149E81B254ABDF5005B0447 /* AnimationDemoThreeVC.m */,
-				4149E81C254ABDF5005B0447 /* YUReplicatorAnimation.m */,
-				4149E81D254ABDF5005B0447 /* SnowView.m */,
-				4149E81E254ABDF5005B0447 /* YUAnimationViewController.h */,
 				4149E81F254ABDF5005B0447 /* AnimationDemoThreeVC.h */,
+				4149E81B254ABDF5005B0447 /* AnimationDemoThreeVC.m */,
+				4149E81E254ABDF5005B0447 /* YUAnimationViewController.h */,
+				4149E818254ABDF5005B0447 /* YUAnimationViewController.m */,
 				4149E820254ABDF5005B0447 /* EmitterLayerView.h */,
+				4149E81A254ABDF5005B0447 /* EmitterLayerView.m */,
+				4149E816254ABDF5005B0447 /* SnowView.h */,
+				4149E81D254ABDF5005B0447 /* SnowView.m */,
 				4149E821254ABDF5005B0447 /* YULoadingLabel.h */,
+				4149E819254ABDF5005B0447 /* YULoadingLabel.m */,
+				4149E817254ABDF5005B0447 /* YUReplicatorAnimation.h */,
+				4149E81C254ABDF5005B0447 /* YUReplicatorAnimation.m */,
 			);
 			path = AnimationDemo3;
 			sourceTree = "<group>";
@@ -3220,17 +3228,17 @@
 		4149E888254ABDF6005B0447 /* TouchChain */ = {
 			isa = PBXGroup;
 			children = (
-				4149E889254ABDF6005B0447 /* TouchChainVC.m */,
-				4149E88A254ABDF6005B0447 /* CZGreenView.h */,
-				4149E88B254ABDF6005B0447 /* CZWhiteView.m */,
-				4149E88C254ABDF6005B0447 /* CZBlueView.h */,
-				4149E88D254ABDF6005B0447 /* CZRedView.h */,
-				4149E88E254ABDF6005B0447 /* CZBlueView.m */,
-				4149E88F254ABDF6005B0447 /* CZWhiteView.h */,
-				4149E890254ABDF6005B0447 /* CZGreenView.m */,
 				4149E891254ABDF6005B0447 /* TouchChainVC.h */,
-				4149E892254ABDF6005B0447 /* CZRedView.m */,
+				4149E889254ABDF6005B0447 /* TouchChainVC.m */,
 				4149E893254ABDF6005B0447 /* TouchChainVC.xib */,
+				4149E88C254ABDF6005B0447 /* CZBlueView.h */,
+				4149E88E254ABDF6005B0447 /* CZBlueView.m */,
+				4149E88A254ABDF6005B0447 /* CZGreenView.h */,
+				4149E890254ABDF6005B0447 /* CZGreenView.m */,
+				4149E88D254ABDF6005B0447 /* CZRedView.h */,
+				4149E892254ABDF6005B0447 /* CZRedView.m */,
+				4149E88F254ABDF6005B0447 /* CZWhiteView.h */,
+				4149E88B254ABDF6005B0447 /* CZWhiteView.m */,
 			);
 			path = TouchChain;
 			sourceTree = "<group>";
@@ -3238,19 +3246,19 @@
 		4149E894254ABDF6005B0447 /* ResponderChain */ = {
 			isa = PBXGroup;
 			children = (
-				4149E895254ABDF6005B0447 /* ResponderChainVC.xib */,
-				4149E896254ABDF6005B0447 /* NSObject+PerformSelector.h */,
-				4149E897254ABDF6005B0447 /* TestTestTableViewCell.h */,
 				4149E898254ABDF6005B0447 /* ResponderChainVC.h */,
-				4149E899254ABDF6005B0447 /* UIResponder+Router.h */,
-				4149E89A254ABDF6005B0447 /* TestTableViewCell.xib */,
-				4149E89B254ABDF6005B0447 /* TestTableViewCell.m */,
-				4149E89C254ABDF6005B0447 /* NSObject+PerformSelector.m */,
 				4149E89D254ABDF6005B0447 /* ResponderChainVC.m */,
-				4149E89E254ABDF6005B0447 /* TestTestTableViewCell.xib */,
-				4149E89F254ABDF6005B0447 /* TestTestTableViewCell.m */,
+				4149E895254ABDF6005B0447 /* ResponderChainVC.xib */,
 				4149E8A0254ABDF6005B0447 /* TestTableViewCell.h */,
+				4149E89B254ABDF6005B0447 /* TestTableViewCell.m */,
+				4149E89A254ABDF6005B0447 /* TestTableViewCell.xib */,
+				4149E897254ABDF6005B0447 /* TestTestTableViewCell.h */,
+				4149E89F254ABDF6005B0447 /* TestTestTableViewCell.m */,
+				4149E89E254ABDF6005B0447 /* TestTestTableViewCell.xib */,
+				4149E899254ABDF6005B0447 /* UIResponder+Router.h */,
 				4149E8A1254ABDF6005B0447 /* UIResponder+Router.m */,
+				4149E896254ABDF6005B0447 /* NSObject+PerformSelector.h */,
+				4149E89C254ABDF6005B0447 /* NSObject+PerformSelector.m */,
 			);
 			path = ResponderChain;
 			sourceTree = "<group>";
@@ -3637,10 +3645,16 @@
 		4149E97F254ABDF7005B0447 /*  Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				4149E980254ABDF7005B0447 /* RecursiveVC.m */,
-				4149E981254ABDF7005B0447 /* SequenceVC.m */,
-				4149E982254ABDF7005B0447 /* RecursiveVC.h */,
-				4149E983254ABDF7005B0447 /* SequenceVC.h */,
+				4149E983254ABDF7005B0447 /*  AlgorithmBasicVC.h */,
+				4149E981254ABDF7005B0447 /*  AlgorithmBasicVC.m */,
+				4149E982254ABDF7005B0447 /* AlRecursiveVC.h */,
+				4149E980254ABDF7005B0447 /* AlRecursiveVC.m */,
+				4181D556255D41FB00B78863 /* AlBinaryTreeVC.h */,
+				4181D557255D41FB00B78863 /* AlBinaryTreeVC.m */,
+				4181D55C255D43D900B78863 /* AlgorithmDemoVC.h */,
+				4181D55D255D43D900B78863 /* AlgorithmDemoVC.m */,
+				4181D559255D42DA00B78863 /* BinaryTreeNode.h */,
+				4181D55A255D42DA00B78863 /* BinaryTreeNode.m */,
 			);
 			path = " Algorithm";
 			sourceTree = "<group>";
@@ -3648,9 +3662,9 @@
 		4149E984254ABDF7005B0447 /* UITextViewAutoHeight */ = {
 			isa = PBXGroup;
 			children = (
+				4149E987254ABDF7005B0447 /* UITextViewAutoHeightVC.h */,
 				4149E985254ABDF7005B0447 /* UITextViewAutoHeightVC.m */,
 				4149E986254ABDF7005B0447 /* UITextViewAutoHeightVC.xib */,
-				4149E987254ABDF7005B0447 /* UITextViewAutoHeightVC.h */,
 			);
 			path = UITextViewAutoHeight;
 			sourceTree = "<group>";
@@ -3664,30 +3678,23 @@
 			path = Exception;
 			sourceTree = "<group>";
 		};
-		4149E98B254ABDF7005B0447 /* CLanguage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CLanguage;
-			sourceTree = "<group>";
-		};
 		4149E98C254ABDF7005B0447 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				4149E98D254ABDF7005B0447 /* KeyboardThreeVC.h */,
-				4149E98E254ABDF7005B0447 /* KeyboardToolbarTestVC.xib */,
-				4149E98F254ABDF7005B0447 /* KeyboardTwoVC.h */,
-				4149E990254ABDF7005B0447 /* KeyboardToolbarTestVC.m */,
-				4149E991254ABDF7005B0447 /* KeyboardToolbar.h */,
-				4149E992254ABDF7005B0447 /* KeyboardOneVC.m */,
+				4149E999254ABDF7005B0447 /* KeyboardNotificationCenter.h */,
 				4149E993254ABDF7005B0447 /* KeyboardNotificationCenter.m */,
-				4149E994254ABDF7005B0447 /* KeyboardTwoVC.m */,
+				4149E99A254ABDF7005B0447 /* KeyboardOneVC.h */,
+				4149E992254ABDF7005B0447 /* KeyboardOneVC.m */,
+				4149E98D254ABDF7005B0447 /* KeyboardThreeVC.h */,
 				4149E995254ABDF7005B0447 /* KeyboardThreeVC.m */,
+				4149E991254ABDF7005B0447 /* KeyboardToolbar.h */,
 				4149E996254ABDF7005B0447 /* KeyboardToolbar.m */,
 				4149E997254ABDF7005B0447 /* KeyboardToolbar.xib */,
 				4149E998254ABDF7005B0447 /* KeyboardToolbarTestVC.h */,
-				4149E999254ABDF7005B0447 /* KeyboardNotificationCenter.h */,
-				4149E99A254ABDF7005B0447 /* KeyboardOneVC.h */,
+				4149E990254ABDF7005B0447 /* KeyboardToolbarTestVC.m */,
+				4149E98E254ABDF7005B0447 /* KeyboardToolbarTestVC.xib */,
+				4149E98F254ABDF7005B0447 /* KeyboardTwoVC.h */,
+				4149E994254ABDF7005B0447 /* KeyboardTwoVC.m */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -3696,11 +3703,11 @@
 			isa = PBXGroup;
 			children = (
 				4149E99C254ABDF7005B0447 /* BlockVC.h */,
-				4149E99D254ABDF7005B0447 /* BlockTwoVC.m */,
-				4149E99E254ABDF7005B0447 /* BlockPerson.m */,
 				4149E99F254ABDF7005B0447 /* BlockVC.m */,
 				4149E9A0254ABDF7005B0447 /* BlockTwoVC.h */,
+				4149E99D254ABDF7005B0447 /* BlockTwoVC.m */,
 				4149E9A1254ABDF7005B0447 /* BlockPerson.h */,
+				4149E99E254ABDF7005B0447 /* BlockPerson.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -4480,6 +4487,7 @@
 				4149EA75254ABDF9005B0447 /* MemoryEngine.m in Sources */,
 				4149EA49254ABDF9005B0447 /* file1.c in Sources */,
 				4149E9CA254ABDF8005B0447 /* KVOKVCBook.m in Sources */,
+				4181D558255D41FB00B78863 /* AlBinaryTreeVC.m in Sources */,
 				4149EABF254ABDF9005B0447 /* NavigationOneVC.m in Sources */,
 				414AEB77254BAC6C00E3319C /* CoreLocationVC.m in Sources */,
 				4149EA43254ABDF9005B0447 /* WaterView.m in Sources */,
@@ -4520,6 +4528,7 @@
 				4149EAAC254ABDF9005B0447 /* ORHuangView.m in Sources */,
 				4149EA86254ABDF9005B0447 /* KVCStudyVC.m in Sources */,
 				4149E6D9254ABDBA005B0447 /* QFHttpConnection.m in Sources */,
+				4181D55E255D43D900B78863 /* AlgorithmDemoVC.m in Sources */,
 				4149E9F0254ABDF8005B0447 /* UIButton+touch.m in Sources */,
 				4149E6D5254ABDBA005B0447 /* LLSegmentBar.m in Sources */,
 				4149EA7E254ABDF9005B0447 /* ORMotionManager.m in Sources */,
@@ -4617,7 +4626,7 @@
 				414AEB76254BAC6C00E3319C /* MKMapNavigationVC.m in Sources */,
 				4149EA78254ABDF9005B0447 /* SSKeychain.m in Sources */,
 				4149E68A254ABDBA005B0447 /* ArticleView.m in Sources */,
-				4149EAC2254ABDF9005B0447 /* RecursiveVC.m in Sources */,
+				4149EAC2254ABDF9005B0447 /* AlRecursiveVC.m in Sources */,
 				4149E6B4254ABDBA005B0447 /* ButtonGroupView.m in Sources */,
 				4149EAC1254ABDF9005B0447 /* PointerVC.m in Sources */,
 				4149EA18254ABDF8005B0447 /* CCDraggableContainer.m in Sources */,
@@ -4800,6 +4809,7 @@
 				4149EAF4254ABDFB005B0447 /* MJType.m in Sources */,
 				4149E9DE254ABDF8005B0447 /* AttachmentView.m in Sources */,
 				4149E6C6254ABDBA005B0447 /* LeftRightMenuVC.m in Sources */,
+				4181D55B255D42DA00B78863 /* BinaryTreeNode.m in Sources */,
 				4149E9AD254ABDF8005B0447 /* MyOperation.m in Sources */,
 				4149E6C8254ABDBA005B0447 /* MultilevelCollectionViewCell.m in Sources */,
 				4149E9AC254ABDF8005B0447 /* LayoutBaseUseVC.m in Sources */,
@@ -4855,7 +4865,7 @@
 				4149E9B4254ABDF8005B0447 /* AutoArchiveObject.m in Sources */,
 				4149EA1F254ABDF8005B0447 /* AnimationDemoThreeVC.m in Sources */,
 				4149EA17254ABDF8005B0447 /* CCDraggableCardView.m in Sources */,
-				4149EAC3254ABDF9005B0447 /* SequenceVC.m in Sources */,
+				4149EAC3254ABDF9005B0447 /*  AlgorithmBasicVC.m in Sources */,
 				4149E700254ABDBA005B0447 /* NinaSelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

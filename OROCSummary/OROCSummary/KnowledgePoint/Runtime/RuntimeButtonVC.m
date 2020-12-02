@@ -1,6 +1,6 @@
 //
 //  RuntimeButtonVC.m
-//  ORIOSSummary
+//  OROCSummary
 //
 //  Created by orilme on 2020/3/8.
 //  Copyright © 2020 orilme. All rights reserved.
@@ -32,7 +32,7 @@
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     btn.layer.borderColor = [UIColor redColor].CGColor;
     btn.layer.borderWidth = 2.0f;
-    btn.timeInterval = 5;
+    //btn.timeInterval = 5;
     [btn addTarget:self action:@selector(btnClickedOperations) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }

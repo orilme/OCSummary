@@ -1,18 +1,18 @@
 //
-//  SequenceVC.m
-//  ORIOSSummary
+//   AlgorithmBasicVC.m
+//  OROCSummary
 //
 //  Created by orilme on 2019/3/26.
 //  Copyright © 2019年 orilme. All rights reserved.
 //
 
-#import "SequenceVC.h"
+#import " AlgorithmBasicVC.h"
 
-@interface SequenceVC ()
+@interface  AlgorithmBasicVC ()
 
 @end
 
-@implementation SequenceVC
+@implementation  AlgorithmBasicVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

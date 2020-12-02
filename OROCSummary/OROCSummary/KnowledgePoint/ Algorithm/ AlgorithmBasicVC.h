@@ -1,6 +1,6 @@
 //
-//  RecursiveVC.h
-//  ORIOSSummary
+//   AlgorithmBasicVC.h
+//  OROCSummary
 //
 //  Created by orilme on 2019/3/26.
 //  Copyright © 2019年 orilme. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RecursiveVC : UIViewController
+@interface  AlgorithmBasicVC : UIViewController
 
 @end
 

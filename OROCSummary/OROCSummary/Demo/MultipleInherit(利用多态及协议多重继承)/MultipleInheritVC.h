@@ -1,6 +1,6 @@
 //
 //  MultipleInheritVC.h
-//  ORIOSSummary
+//  OROCSummary
 //
 //  Created by orilme on 2020/2/29.
 //  Copyright © 2020 orilme. All rights reserved.

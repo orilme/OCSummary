@@ -1,18 +1,18 @@
 //
-//  RecursiveVC.m
+//  AlRecursiveVC.m
 //  ORIOSSummary
 //
 //  Created by orilme on 2019/3/26.
 //  Copyright © 2019年 orilme. All rights reserved.
 //
 
-#import "RecursiveVC.h"
+#import "AlRecursiveVC.h"
 
-@interface RecursiveVC ()
+@interface AlRecursiveVC ()
 
 @end
 
-@implementation RecursiveVC
+@implementation AlRecursiveVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

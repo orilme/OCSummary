@@ -36,7 +36,6 @@
                   @{@"menuName": @"输入验证码或者密码UI", @"className": @"CodeOrPassWordOneVC"},
                   @{@"menuName": @"输入验证码或者密码UI2", @"className": @"CodeOrPassWordTwoVC"},
                   @{@"menuName": @"输入验证码或者密码UI3（弹窗式）", @"className": @"CodeOrPassWordThreeVC"},
-                  
                   @{@"menuName": @"TableView、collectionView空数据默认占位图", @"className": @"PlaceholderTableVC"},]}.mutableCopy,
     // 分类使用
     @{@"headName": @"分类使用",

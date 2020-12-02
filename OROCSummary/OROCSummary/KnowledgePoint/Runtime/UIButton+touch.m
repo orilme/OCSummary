@@ -42,7 +42,7 @@
 
 - (void)mySendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
     if ([NSStringFromClass(self.class) isEqualToString:@"UIButton"]) {
-        if (self.isIgnoreEvent == 0) {
+        if (self.timeInterval == 0) {
             self.timeInterval = defaultInterval;
         };
         

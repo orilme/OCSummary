@@ -1,6 +1,6 @@
 //
 //  KnowledgePointVC.m
-//  ORIOSSummary
+//  OROCSummary
 //
 //  Created by orilme on 2019/11/30.
 //  Copyright © 2019 orilme. All rights reserved.
@@ -25,7 +25,6 @@
     @{@"headName": @"基础",
       @"isFold": @"1",
       @"value": @[@{@"menuName": @"知识点", @"className": @"BasicKnowledgeVC"},
-                @{@"menuName": @"算法-递归", @"className": @"RecursiveVC"},
                 @{@"menuName": @"VC生命周期", @"className": @"LifeCycleOneVC"},
                 @{@"menuName": @"view 常用方法", @"className": @"ViewMethodVC"},
                 @{@"menuName": @"继承", @"className": @"InheritVC"},
@@ -42,8 +41,6 @@
                 @{@"menuName": @"Touch事件", @"className": @"TouchVC"},
                 @{@"menuName": @"UITextView自适应高度", @"className": @"UITextViewAutoHeightVC"},
                 @{@"menuName": @"CustomBadge", @"className": @"CustomBadgeVC"},
-                @{@"menuName": @"CollectionLayout使用", @"className": @"CircleCollectionVC"},
-                @{@"menuName": @"CollectionLayout使用2", @"className": @"LayoutBaseUseVC"},
                 @{@"menuName": @"苹果内购", @"className": @"AppleStoreVC"},
                 @{@"menuName": @"ARKit", @"className": @"ARSCNViewVC"},
                 @{@"menuName": @"CoreMotion(陀螺仪、陀螺仪、加速剂)", @"className": @"CoreMotionVC"},
@@ -57,15 +54,22 @@
                 @{@"menuName": @"KeyboardToolbarTestVC", @"className": @"KeyboardToolbarTestVC"},
                 @{@"menuName": @"指针", @"className": @"PointerVC"},
                 @{@"menuName": @"应用间的跳转", @"className": @"JumpVC"},
-                @{@"menuName": @"通讯录有UI", @"className": @"AddressBookUIVC"},
-                @{@"menuName": @"通讯录无UI", @"className": @"AddressBookVC"},
                 @{@"menuName": @"发短信", @"className": @"SendMessageVC"},]}.mutableCopy,
-    // UITableview
-    @{@"headName": @"UITableview",
+    // 算法
+    @{@"headName": @"算法",
+      @"isFold": @"1",
+      @"value": @[@{@"menuName": @"基础算法", @"className": @" AlgorithmBasicVC"},
+                @{@"menuName": @"算法-递归", @"className": @"AlRecursiveVC"},
+                @{@"menuName": @"算法-二叉树相关", @"className": @"AlBinaryTreeVC"},
+                @{@"menuName": @"算法-实际举例", @"className": @"AlgorithmDemoVC"},]}.mutableCopy,
+    // Tableview & CollectionView
+    @{@"headName": @"Tableview & CollectionView",
       @"isFold": @"1",
       @"value": @[@{@"menuName": @"Tableview左滑菜单", @"className": @"EditTableViewVC"},
                 @{@"menuName": @"通讯录点击效果", @"className": @"AdressBookTableVC"},
-                @{@"menuName": @"模拟TableView Delegate、Datasource", @"className": @"SimulateTableViewDelegateDatasourceVC"},]}.mutableCopy,
+                @{@"menuName": @"模拟TableView Delegate、Datasource", @"className": @"SimulateTableViewDelegateDatasourceVC"},
+                @{@"menuName": @"CollectionLayout使用", @"className": @"CircleCollectionVC"},
+                @{@"menuName": @"CollectionLayout使用2", @"className": @"LayoutBaseUseVC"},]}.mutableCopy,
     // Runtime
     @{@"headName": @"Runtime",
       @"isFold": @"1",
@@ -122,7 +126,6 @@
                     @{@"menuName": @"DrawRect示例2", @"className": @"DrawRectDemoaTwoVC"},
                     @{@"menuName": @"DrawRect涂鸦", @"className": @"DrawRectScrawlVC"},
                     @{@"menuName": @"DrawRect涂鸦2", @"className": @"DrawRectScrawlColorVC"},]}.mutableCopy,
-    
     // 动画
     @{@"headName": @"动画",
       @"isFold": @"1",
@@ -171,7 +174,9 @@
     @{@"headName": @"其他",
       @"isFold": @"1",
       @"value":   @[@{@"menuName": @"游戏中心", @"className": @"GameKitVC"},
-                   @{@"menuName": @"加密", @"className": @"EncryptVC"},]}.mutableCopy,
+                   @{@"menuName": @"加密", @"className": @"EncryptVC"},
+                   @{@"menuName": @"通讯录有UI", @"className": @"AddressBookUIVC"},
+                   @{@"menuName": @"通讯录无UI", @"className": @"AddressBookVC"},]}.mutableCopy,
     ];
 }
 
