@@ -74,7 +74,7 @@
                   @{@"menuName": @"苹果地图-画线", @"className": @"MKMapDrawLineVC"},]}.mutableCopy,
     // 其他
     @{@"headName": @"其他",
-      @"isFold": @"0",
+      @"isFold": @"1",
       @"value": @[@{@"menuName": @"城市列表1", @"className": @"CityListOneVC"},
                   @{@"menuName": @"城市列表2", @"className": @"CityListTwoVC"},
                 @{@"menuName": @"HttpCache", @"className": @"HttpCacheVC"},]}.mutableCopy,
