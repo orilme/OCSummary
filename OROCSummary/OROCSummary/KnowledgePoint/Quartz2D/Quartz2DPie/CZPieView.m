@@ -10,7 +10,6 @@
 
 @implementation CZPieView
 
-
 //@[@20,30,@20,30] 0.2,0.3,0.2,03
 //3.在drawrect里面去画不同的扇形
 

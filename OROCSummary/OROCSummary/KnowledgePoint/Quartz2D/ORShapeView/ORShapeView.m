@@ -128,28 +128,6 @@
     CGContextStrokePath(context);
 }
 
-//- (void)drawRect:(CGRect)rect {
-//    // Drawing code
-//
-//    UIImage *image = [UIImage imageNamed:@"aimage"];
-//
-//    //[image drawAtPoint:CGPointZero];
-//    //[image drawInRect:CGRectMake(10, 10, 80, 80)];
-//    [image drawAsPatternInRect:CGRectMake(0, 0, 200, 200)];
-//
-//}
-//
-//-(void)drawText{
-//    NSString *text = @"quartz2D入门";
-//
-//    //[text drawAtPoint:CGPointZero withAttributes:nil];
-//
-//    NSDictionary *att = @{NSFontAttributeName:[UIFont systemFontOfSize:15],NSForegroundColorAttributeName:[UIColor redColor]};
-//
-//    [text drawInRect:CGRectMake(10, 10, 120, 44) withAttributes:att];
-//
-//}
-
 - (void)drawTextImage:(CGRect)rect {
     
     CGFloat w = rect.size.width;

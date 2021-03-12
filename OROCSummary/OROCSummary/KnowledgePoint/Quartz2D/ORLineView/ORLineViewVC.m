@@ -8,10 +8,9 @@
 
 #import "ORLineViewVC.h"
 #import "ORLineView.h"
-#import "CZCustomView.h"
-#import "CZCustomTwoView.h"
-#import "CZCustomThreeView.h"
-#import "UIKitCustomView.h"
+#import "ORCustomView.h"
+#import "ORCustomTwoView.h"
+#import "ORUIKitCustomView.h"
 
 @interface ORLineViewVC ()
 @end
@@ -29,23 +28,18 @@
 
     
     // 图形的上下文栈
-    CZCustomView *customView = [[CZCustomView alloc] initWithFrame:CGRectMake(10, 320, 200, 200)];
+    ORCustomView *customView = [[ORCustomView alloc] initWithFrame:CGRectMake(10, 320, 200, 200)];
     customView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:customView];
     
     //
-    CZCustomThreeView *customView4 = [[CZCustomThreeView alloc] initWithFrame:CGRectMake(220, 320, 200, 200)];
+    ORCustomTwoView *customView4 = [[ORCustomTwoView alloc] initWithFrame:CGRectMake(220, 320, 200, 200)];
     customView4.backgroundColor = [UIColor grayColor];
     [self.view addSubview:customView4];
     
-    // 矩阵操作
-    CZCustomTwoView *customView2 = [[CZCustomTwoView alloc] initWithFrame:CGRectMake(10, 530, 200, 200)];
-    customView2.backgroundColor = [UIColor grayColor];
-    [self.view addSubview:customView2];
-    
     
     // UIKit绘图方法
-    UIKitCustomView *customView3 = [[UIKitCustomView alloc] initWithFrame:CGRectMake(220, 530, 200, 200)];
+    ORUIKitCustomView *customView3 = [[ORUIKitCustomView alloc] initWithFrame:CGRectMake(10, 530, 200, 200)];
     customView3.backgroundColor = [UIColor grayColor];
     [self.view addSubview:customView3];
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		404C21AA61689C8EDD2B4778 /* Pods_OROCSummary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270BCC1C4F19E1ECB0544 /* Pods_OROCSummary.framework */; };
+		41444C5725FB3BEE00035032 /* EditTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41444C5625FB3BEE00035032 /* EditTableVC.m */; };
 		4149DDA7254ABAAF005B0447 /* OROCSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149DDA6254ABAAF005B0447 /* OROCSummaryTests.m */; };
 		4149DDB2254ABAAF005B0447 /* OROCSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149DDB1254ABAAF005B0447 /* OROCSummaryUITests.m */; };
 		4149E482254ABBEE005B0447 /* 一东.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4149E47C254ABBEE005B0447 /* 一东.plist */; };
@@ -475,12 +476,10 @@
 		4149EA92254ABDF9005B0447 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 4149E917254ABDF6005B0447 /* ioapi.c */; };
 		4149EA93254ABDF9005B0447 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 4149E918254ABDF6005B0447 /* mztools.c */; };
 		4149EA94254ABDF9005B0447 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E91F254ABDF6005B0447 /* SSZipArchive.m */; };
-		4149EA95254ABDF9005B0447 /* CZCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E928254ABDF7005B0447 /* CZCustomView.m */; };
-		4149EA96254ABDF9005B0447 /* UIImage+CZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E92A254ABDF7005B0447 /* UIImage+CZ.m */; };
-		4149EA97254ABDF9005B0447 /* CZCustomTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E92B254ABDF7005B0447 /* CZCustomTwoView.m */; };
+		4149EA95254ABDF9005B0447 /* ORCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E928254ABDF7005B0447 /* ORCustomView.m */; };
 		4149EA98254ABDF9005B0447 /* ORLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E931254ABDF7005B0447 /* ORLineView.m */; };
 		4149EA99254ABDF9005B0447 /* Quartz2DLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E932254ABDF7005B0447 /* Quartz2DLockVC.m */; };
-		4149EA9A254ABDF9005B0447 /* CZCustomThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E933254ABDF7005B0447 /* CZCustomThreeView.m */; };
+		4149EA9A254ABDF9005B0447 /* ORCustomTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E933254ABDF7005B0447 /* ORCustomTwoView.m */; };
 		4149EA9B254ABDF9005B0447 /* ORLineViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E934254ABDF7005B0447 /* ORLineViewVC.m */; };
 		4149EA9C254ABDF9005B0447 /* ORShapeViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E935254ABDF7005B0447 /* ORShapeViewVC.m */; };
 		4149EA9D254ABDF9005B0447 /* Quartz2DVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E936254ABDF7005B0447 /* Quartz2DVC.m */; };
@@ -497,7 +496,7 @@
 		4149EAA8254ABDF9005B0447 /* DrawRectDemoaTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E94D254ABDF7005B0447 /* DrawRectDemoaTwoVC.m */; };
 		4149EAA9254ABDF9005B0447 /* DrawRectScrawlColorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4149E94E254ABDF7005B0447 /* DrawRectScrawlColorVC.xib */; };
 		4149EAAA254ABDF9005B0447 /* ORHuangViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E950254ABDF7005B0447 /* ORHuangViewVC.m */; };
-		4149EAAB254ABDF9005B0447 /* UIKitCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E951254ABDF7005B0447 /* UIKitCustomView.m */; };
+		4149EAAB254ABDF9005B0447 /* ORUIKitCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E951254ABDF7005B0447 /* ORUIKitCustomView.m */; };
 		4149EAAC254ABDF9005B0447 /* ORHuangView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E952254ABDF7005B0447 /* ORHuangView.m */; };
 		4149EAAD254ABDF9005B0447 /* ORShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E954254ABDF7005B0447 /* ORShapeView.m */; };
 		4149EAAE254ABDF9005B0447 /* CircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E956254ABDF7005B0447 /* CircleImageView.m */; };
@@ -622,6 +621,8 @@
 
 /* Begin PBXFileReference section */
 		1333BFE3FF268A7BB9E02B3B /* Pods-OROCSummary-OROCSummaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OROCSummary-OROCSummaryUITests.release.xcconfig"; path = "Target Support Files/Pods-OROCSummary-OROCSummaryUITests/Pods-OROCSummary-OROCSummaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41444C5525FB3BEE00035032 /* EditTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditTableVC.h; sourceTree = "<group>"; };
+		41444C5625FB3BEE00035032 /* EditTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTableVC.m; sourceTree = "<group>"; };
 		4149DD87254ABAAD005B0447 /* orilme_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orilme_oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4149DDA2254ABAAF005B0447 /* OROCSummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OROCSummaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4149DDA6254ABAAF005B0447 /* OROCSummaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OROCSummaryTests.m; sourceTree = "<group>"; };
@@ -1436,14 +1437,12 @@
 		4149E921254ABDF7005B0447 /* Quartz2DVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DVC.h; sourceTree = "<group>"; };
 		4149E922254ABDF7005B0447 /* ORLineViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineViewVC.h; sourceTree = "<group>"; };
 		4149E923254ABDF7005B0447 /* ORShapeViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORShapeViewVC.h; sourceTree = "<group>"; };
-		4149E924254ABDF7005B0447 /* CZCustomThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCustomThreeView.h; sourceTree = "<group>"; };
+		4149E924254ABDF7005B0447 /* ORCustomTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCustomTwoView.h; sourceTree = "<group>"; };
 		4149E925254ABDF7005B0447 /* Quartz2DLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DLockVC.h; sourceTree = "<group>"; };
-		4149E926254ABDF7005B0447 /* UIKitCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitCustomView.h; sourceTree = "<group>"; };
+		4149E926254ABDF7005B0447 /* ORUIKitCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORUIKitCustomView.h; sourceTree = "<group>"; };
 		4149E927254ABDF7005B0447 /* ORHuangViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHuangViewVC.h; sourceTree = "<group>"; };
-		4149E928254ABDF7005B0447 /* CZCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCustomView.m; sourceTree = "<group>"; };
+		4149E928254ABDF7005B0447 /* ORCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCustomView.m; sourceTree = "<group>"; };
 		4149E929254ABDF7005B0447 /* CircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleImageView.h; sourceTree = "<group>"; };
-		4149E92A254ABDF7005B0447 /* UIImage+CZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CZ.m"; sourceTree = "<group>"; };
-		4149E92B254ABDF7005B0447 /* CZCustomTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCustomTwoView.m; sourceTree = "<group>"; };
 		4149E92C254ABDF7005B0447 /* ORShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORShapeView.h; sourceTree = "<group>"; };
 		4149E92D254ABDF7005B0447 /* ORHuangView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHuangView.h; sourceTree = "<group>"; };
 		4149E92E254ABDF7005B0447 /* Quartz2DPieVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DPieVC.h; sourceTree = "<group>"; };
@@ -1451,7 +1450,7 @@
 		4149E930254ABDF7005B0447 /* CZLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLockView.h; sourceTree = "<group>"; };
 		4149E931254ABDF7005B0447 /* ORLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineView.m; sourceTree = "<group>"; };
 		4149E932254ABDF7005B0447 /* Quartz2DLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DLockVC.m; sourceTree = "<group>"; };
-		4149E933254ABDF7005B0447 /* CZCustomThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCustomThreeView.m; sourceTree = "<group>"; };
+		4149E933254ABDF7005B0447 /* ORCustomTwoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCustomTwoView.m; sourceTree = "<group>"; };
 		4149E934254ABDF7005B0447 /* ORLineViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineViewVC.m; sourceTree = "<group>"; };
 		4149E935254ABDF7005B0447 /* ORShapeViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORShapeViewVC.m; sourceTree = "<group>"; };
 		4149E936254ABDF7005B0447 /* Quartz2DVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DVC.m; sourceTree = "<group>"; };
@@ -1478,13 +1477,11 @@
 		4149E94C254ABDF7005B0447 /* CADisplayLinkBallonUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkBallonUpView.h; sourceTree = "<group>"; };
 		4149E94D254ABDF7005B0447 /* DrawRectDemoaTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectDemoaTwoVC.m; sourceTree = "<group>"; };
 		4149E94E254ABDF7005B0447 /* DrawRectScrawlColorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawRectScrawlColorVC.xib; sourceTree = "<group>"; };
-		4149E94F254ABDF7005B0447 /* CZCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCustomView.h; sourceTree = "<group>"; };
+		4149E94F254ABDF7005B0447 /* ORCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCustomView.h; sourceTree = "<group>"; };
 		4149E950254ABDF7005B0447 /* ORHuangViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHuangViewVC.m; sourceTree = "<group>"; };
-		4149E951254ABDF7005B0447 /* UIKitCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitCustomView.m; sourceTree = "<group>"; };
+		4149E951254ABDF7005B0447 /* ORUIKitCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORUIKitCustomView.m; sourceTree = "<group>"; };
 		4149E952254ABDF7005B0447 /* ORHuangView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHuangView.m; sourceTree = "<group>"; };
-		4149E953254ABDF7005B0447 /* UIImage+CZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZ.h"; sourceTree = "<group>"; };
 		4149E954254ABDF7005B0447 /* ORShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORShapeView.m; sourceTree = "<group>"; };
-		4149E955254ABDF7005B0447 /* CZCustomTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCustomTwoView.h; sourceTree = "<group>"; };
 		4149E956254ABDF7005B0447 /* CircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleImageView.m; sourceTree = "<group>"; };
 		4149E957254ABDF7005B0447 /* ORLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineView.h; sourceTree = "<group>"; };
 		4149E958254ABDF7005B0447 /* CZLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLockView.m; sourceTree = "<group>"; };
@@ -1808,6 +1805,8 @@
 				4149E48F254ABD2A005B0447 /* VenderExploreVC.m */,
 				4149E496254ABD2A005B0447 /* StudyVC.h */,
 				4149E48E254ABD2A005B0447 /* StudyVC.m */,
+				41444C5525FB3BEE00035032 /* EditTableVC.h */,
+				41444C5625FB3BEE00035032 /* EditTableVC.m */,
 			);
 			path = BasicVC;
 			sourceTree = "<group>";
@@ -3492,40 +3491,16 @@
 		4149E920254ABDF6005B0447 /* Quartz2D */ = {
 			isa = PBXGroup;
 			children = (
-				4183D21725BEBE0100554ACF /* ORLineView */,
-				4149E937254ABDF7005B0447 /* DrawRectDemo */,
 				4149E921254ABDF7005B0447 /* Quartz2DVC.h */,
 				4149E936254ABDF7005B0447 /* Quartz2DVC.m */,
-				4149E923254ABDF7005B0447 /* ORShapeViewVC.h */,
-				4149E935254ABDF7005B0447 /* ORShapeViewVC.m */,
-				4149E927254ABDF7005B0447 /* ORHuangViewVC.h */,
-				4149E950254ABDF7005B0447 /* ORHuangViewVC.m */,
-				4149E92E254ABDF7005B0447 /* Quartz2DPieVC.h */,
-				4149E959254ABDF7005B0447 /* Quartz2DPieVC.m */,
-				4149E925254ABDF7005B0447 /* Quartz2DLockVC.h */,
-				4149E932254ABDF7005B0447 /* Quartz2DLockVC.m */,
-				4149E929254ABDF7005B0447 /* CircleImageView.h */,
-				4149E956254ABDF7005B0447 /* CircleImageView.m */,
-				4149E924254ABDF7005B0447 /* CZCustomThreeView.h */,
-				4149E933254ABDF7005B0447 /* CZCustomThreeView.m */,
-				4149E955254ABDF7005B0447 /* CZCustomTwoView.h */,
-				4149E92B254ABDF7005B0447 /* CZCustomTwoView.m */,
-				4149E94F254ABDF7005B0447 /* CZCustomView.h */,
-				4149E928254ABDF7005B0447 /* CZCustomView.m */,
-				4149E930254ABDF7005B0447 /* CZLockView.h */,
-				4149E958254ABDF7005B0447 /* CZLockView.m */,
-				4149E92F254ABDF7005B0447 /* CZPieView.h */,
-				4149E95A254ABDF7005B0447 /* CZPieView.m */,
-				4149E92D254ABDF7005B0447 /* ORHuangView.h */,
-				4149E952254ABDF7005B0447 /* ORHuangView.m */,
-				4149E957254ABDF7005B0447 /* ORLineView.h */,
-				4149E931254ABDF7005B0447 /* ORLineView.m */,
-				4149E92C254ABDF7005B0447 /* ORShapeView.h */,
-				4149E954254ABDF7005B0447 /* ORShapeView.m */,
-				4149E953254ABDF7005B0447 /* UIImage+CZ.h */,
-				4149E92A254ABDF7005B0447 /* UIImage+CZ.m */,
-				4149E926254ABDF7005B0447 /* UIKitCustomView.h */,
-				4149E951254ABDF7005B0447 /* UIKitCustomView.m */,
+				4149E94B254ABDF7005B0447 /* UIImage+CZ.h */,
+				4149E93E254ABDF7005B0447 /* UIImage+CZ.m */,
+				4183D21725BEBE0100554ACF /* ORLineView */,
+				4183D21825BEC16900554ACF /* ORShapeView */,
+				4183D21925BEC18A00554ACF /* ORHuangView */,
+				4183D21A25BEC19300554ACF /* Quartz2DPie */,
+				4183D21B25BEC19C00554ACF /* Quartz2DLock */,
+				4149E937254ABDF7005B0447 /* DrawRectDemo */,
 			);
 			path = Quartz2D;
 			sourceTree = "<group>";
@@ -3533,29 +3508,27 @@
 		4149E937254ABDF7005B0447 /* DrawRectDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4149E93C254ABDF7005B0447 /* BallonView.h */,
-				4149E946254ABDF7005B0447 /* BallonView.m */,
-				4149E94C254ABDF7005B0447 /* CADisplayLinkBallonUpView.h */,
-				4149E93D254ABDF7005B0447 /* CADisplayLinkBallonUpView.m */,
-				4149E948254ABDF7005B0447 /* CADisplayLinkBallonView.h */,
-				4149E941254ABDF7005B0447 /* CADisplayLinkBallonView.m */,
-				4149E93F254ABDF7005B0447 /* CZColorPaintView.h */,
-				4149E94A254ABDF7005B0447 /* CZColorPaintView.m */,
-				4149E939254ABDF7005B0447 /* CZMorePaintView.h */,
-				4149E944254ABDF7005B0447 /* CZMorePaintView.m */,
-				4149E943254ABDF7005B0447 /* CZPaintView.h */,
-				4149E93A254ABDF7005B0447 /* CZPaintView.m */,
-				4149E942254ABDF7005B0447 /* DrawRectDemoaTwoVC.h */,
-				4149E94D254ABDF7005B0447 /* DrawRectDemoaTwoVC.m */,
 				4149E938254ABDF7005B0447 /* DrawRectDemoVC.h */,
 				4149E945254ABDF7005B0447 /* DrawRectDemoVC.m */,
+				4149E942254ABDF7005B0447 /* DrawRectDemoaTwoVC.h */,
+				4149E94D254ABDF7005B0447 /* DrawRectDemoaTwoVC.m */,
+				4149E940254ABDF7005B0447 /* DrawRectScrawlVC.h */,
+				4149E949254ABDF7005B0447 /* DrawRectScrawlVC.m */,
 				4149E947254ABDF7005B0447 /* DrawRectScrawlColorVC.h */,
 				4149E93B254ABDF7005B0447 /* DrawRectScrawlColorVC.m */,
 				4149E94E254ABDF7005B0447 /* DrawRectScrawlColorVC.xib */,
-				4149E940254ABDF7005B0447 /* DrawRectScrawlVC.h */,
-				4149E949254ABDF7005B0447 /* DrawRectScrawlVC.m */,
-				4149E94B254ABDF7005B0447 /* UIImage+CZ.h */,
-				4149E93E254ABDF7005B0447 /* UIImage+CZ.m */,
+				4149E93C254ABDF7005B0447 /* BallonView.h */,
+				4149E946254ABDF7005B0447 /* BallonView.m */,
+				4149E948254ABDF7005B0447 /* CADisplayLinkBallonView.h */,
+				4149E941254ABDF7005B0447 /* CADisplayLinkBallonView.m */,
+				4149E94C254ABDF7005B0447 /* CADisplayLinkBallonUpView.h */,
+				4149E93D254ABDF7005B0447 /* CADisplayLinkBallonUpView.m */,
+				4149E943254ABDF7005B0447 /* CZPaintView.h */,
+				4149E93A254ABDF7005B0447 /* CZPaintView.m */,
+				4149E939254ABDF7005B0447 /* CZMorePaintView.h */,
+				4149E944254ABDF7005B0447 /* CZMorePaintView.m */,
+				4149E93F254ABDF7005B0447 /* CZColorPaintView.h */,
+				4149E94A254ABDF7005B0447 /* CZColorPaintView.m */,
 			);
 			path = DrawRectDemo;
 			sourceTree = "<group>";
@@ -3991,8 +3964,62 @@
 			children = (
 				4149E922254ABDF7005B0447 /* ORLineViewVC.h */,
 				4149E934254ABDF7005B0447 /* ORLineViewVC.m */,
+				4149E957254ABDF7005B0447 /* ORLineView.h */,
+				4149E931254ABDF7005B0447 /* ORLineView.m */,
+				4149E94F254ABDF7005B0447 /* ORCustomView.h */,
+				4149E928254ABDF7005B0447 /* ORCustomView.m */,
+				4149E924254ABDF7005B0447 /* ORCustomTwoView.h */,
+				4149E933254ABDF7005B0447 /* ORCustomTwoView.m */,
+				4149E926254ABDF7005B0447 /* ORUIKitCustomView.h */,
+				4149E951254ABDF7005B0447 /* ORUIKitCustomView.m */,
 			);
 			path = ORLineView;
+			sourceTree = "<group>";
+		};
+		4183D21825BEC16900554ACF /* ORShapeView */ = {
+			isa = PBXGroup;
+			children = (
+				4149E923254ABDF7005B0447 /* ORShapeViewVC.h */,
+				4149E935254ABDF7005B0447 /* ORShapeViewVC.m */,
+				4149E92C254ABDF7005B0447 /* ORShapeView.h */,
+				4149E954254ABDF7005B0447 /* ORShapeView.m */,
+			);
+			path = ORShapeView;
+			sourceTree = "<group>";
+		};
+		4183D21925BEC18A00554ACF /* ORHuangView */ = {
+			isa = PBXGroup;
+			children = (
+				4149E927254ABDF7005B0447 /* ORHuangViewVC.h */,
+				4149E950254ABDF7005B0447 /* ORHuangViewVC.m */,
+				4149E92D254ABDF7005B0447 /* ORHuangView.h */,
+				4149E952254ABDF7005B0447 /* ORHuangView.m */,
+			);
+			path = ORHuangView;
+			sourceTree = "<group>";
+		};
+		4183D21A25BEC19300554ACF /* Quartz2DPie */ = {
+			isa = PBXGroup;
+			children = (
+				4149E92E254ABDF7005B0447 /* Quartz2DPieVC.h */,
+				4149E959254ABDF7005B0447 /* Quartz2DPieVC.m */,
+				4149E92F254ABDF7005B0447 /* CZPieView.h */,
+				4149E95A254ABDF7005B0447 /* CZPieView.m */,
+				4149E929254ABDF7005B0447 /* CircleImageView.h */,
+				4149E956254ABDF7005B0447 /* CircleImageView.m */,
+			);
+			path = Quartz2DPie;
+			sourceTree = "<group>";
+		};
+		4183D21B25BEC19C00554ACF /* Quartz2DLock */ = {
+			isa = PBXGroup;
+			children = (
+				4149E925254ABDF7005B0447 /* Quartz2DLockVC.h */,
+				4149E932254ABDF7005B0447 /* Quartz2DLockVC.m */,
+				4149E930254ABDF7005B0447 /* CZLockView.h */,
+				4149E958254ABDF7005B0447 /* CZLockView.m */,
+			);
+			path = Quartz2DLock;
 			sourceTree = "<group>";
 		};
 		41E3704925593CF100AA9AB5 /* ViewAndVCMethod */ = {
@@ -4485,8 +4512,8 @@
 				4149E66D254ABDBA005B0447 /* UIButton+CZ.m in Sources */,
 				4149E6AC254ABDBA005B0447 /* PinyinHelper.m in Sources */,
 				4149EA34254ABDF8005B0447 /* CurveToPointViewController.m in Sources */,
-				4149EAAB254ABDF9005B0447 /* UIKitCustomView.m in Sources */,
-				4149EA95254ABDF9005B0447 /* CZCustomView.m in Sources */,
+				4149EAAB254ABDF9005B0447 /* ORUIKitCustomView.m in Sources */,
+				4149EA95254ABDF9005B0447 /* ORCustomView.m in Sources */,
 				4149E69A254ABDBA005B0447 /* MyDetialViewController.m in Sources */,
 				4149EA23254ABDF8005B0447 /* UITabBar+CustomBadge.m in Sources */,
 				4149EA06254ABDF8005B0447 /* RectangleLayer.m in Sources */,
@@ -4504,7 +4531,7 @@
 				4149E9FE254ABDF8005B0447 /* CABasicAnimationVC.m in Sources */,
 				4149EB51254AC8BD005B0447 /* main.m in Sources */,
 				4149E9FA254ABDF8005B0447 /* AnimationDemoVC.m in Sources */,
-				4149EA9A254ABDF9005B0447 /* CZCustomThreeView.m in Sources */,
+				4149EA9A254ABDF9005B0447 /* ORCustomTwoView.m in Sources */,
 				4149EA2A254ABDF8005B0447 /* ProtocolGoodStudent.m in Sources */,
 				4149EB41254ABE03005B0447 /* AdvertiseHelper.m in Sources */,
 				4149E701254ABDBA005B0447 /* AlertAnimationVC.m in Sources */,
@@ -4558,11 +4585,10 @@
 				4149E6D1254ABDBA005B0447 /* NavPageScrollVC.m in Sources */,
 				4149EA3F254ABDF9005B0447 /* CoreGraphicsVC.m in Sources */,
 				4149EAFA254ABDFB005B0447 /* GVUserDefaults.m in Sources */,
-				4149EA96254ABDF9005B0447 /* UIImage+CZ.m in Sources */,
 				4149EA04254ABDF8005B0447 /* UIColor+Hex.m in Sources */,
 				4149EA20254ABDF8005B0447 /* YUReplicatorAnimation.m in Sources */,
 				4149E652254ABDBA005B0447 /* MusicPlayerVC.m in Sources */,
-				4149EA97254ABDF9005B0447 /* CZCustomTwoView.m in Sources */,
+				41444C5725FB3BEE00035032 /* EditTableVC.m in Sources */,
 				4149EA9B254ABDF9005B0447 /* ORLineViewVC.m in Sources */,
 				4149E9B1254ABDF8005B0447 /* NSCodingVC.m in Sources */,
 				4149E9BA254ABDF8005B0447 /* FMResultSet.m in Sources */,

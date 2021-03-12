@@ -1,21 +1,17 @@
 //
-//  CZCustomThreeView.m
-//  B03.UIKit绘图方法
+//  ORCustomTwoView.m
+//  OROCSummary
 //
-//  Created by Apple on 15/1/2.
-//  Copyright (c) 2015年 itcast. All rights reserved.
+//  Created by orilme on 2019/8/11.
+//  Copyright © 2019 orilme. All rights reserved.
 //
 
-#import "CZCustomThreeView.h"
+#import "ORCustomTwoView.h"
 
-@implementation CZCustomThreeView
+@implementation ORCustomTwoView
 
-
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
- 
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
     //每调用一次，往上下文添加路径
@@ -45,10 +41,7 @@
     // 什么情况下创建的C语言资源，需要释放 以create，retain,copy创建的数据要释放
     //CGPathRelease(path);
     // 能用
-    CFRelease(path);
-    
-    
+    CFRelease(path); 
 }
-
 
 @end

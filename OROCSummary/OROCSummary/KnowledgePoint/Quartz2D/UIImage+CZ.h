@@ -29,4 +29,11 @@
  */
 +(UIImage *)circleImageWithImageName:(NSString *)imageName borderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth;
 
+
+/**
+ *
+ *  @param captureView    需要截图View
+ *  @return 返回view的图片
+ */
++(UIImage *)captureImage:(UIView *)captureView;
 @end

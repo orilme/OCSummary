@@ -18,7 +18,6 @@
     
     // 1.实现裁剪图片显圆形 并显示
     
-    
     // 1.1.获取上下文
     CGContextRef ctx = UIGraphicsGetCurrentContext();
 

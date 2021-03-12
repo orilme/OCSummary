@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view
     self.meunVCArr = @[@"ORLineViewVC", @"ORShapeViewVC", @"ORHuangViewVC", @"Quartz2DPieVC", @"Quartz2DLockVC"];
-    self.meunTitleArr = @[@"Line、图形上下文栈、矩阵操作、UIKit绘图方法", @"ORShapeViewVC", @"ORHuangViewVC", @"饼状图、裁切圆角", @"手势解锁"];
+    self.meunTitleArr = @[@"Line、图形上下文栈、UIKit绘图方法", @"ORShapeViewVC", @"ORHuangViewVC", @"饼状图、裁切圆角", @"手势解锁"];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
 }

@@ -10,7 +10,7 @@
 
 @implementation UIImage (CZ)
 
-+ (UIImage *)waterImageWithBgImageName:(NSString *)bgImageName waterImageName:(NSString *)waterImageName scale:(CGFloat)scale{
++(UIImage *)waterImageWithBgImageName:(NSString *)bgImageName waterImageName:(NSString *)waterImageName scale:(CGFloat)scale{
     // 生成一张有水印的图片，一定要获取UIImage对象 然后显示在imageView上
     
     //创建一背景图片
@@ -94,6 +94,24 @@
     UIGraphicsEndImageContext();
     
     return newImage;
+}
+
+
++(UIImage *)captureImage:(UIView *)captureView{
+    //创建一个位图上下文
+    UIGraphicsBeginImageContext(captureView.bounds.size);
+    
+    //把view渲染到位图上下文
+    [captureView.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    //获取图片
+    UIImage *captureImg = UIGraphicsGetImageFromCurrentImageContext();
+    
+    //结束位图的编辑
+    UIGraphicsEndImageContext();
+    
+    //返回
+    return captureImg;
 }
 
 @end

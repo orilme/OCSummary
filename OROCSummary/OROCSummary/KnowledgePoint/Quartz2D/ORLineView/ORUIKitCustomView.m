@@ -1,15 +1,14 @@
 //
-//  UIKitCustomView.m
-//  B03.UIKit绘图方法
+//  ORUIKitCustomView.m
+//  OROCSummary
 //
-//  Created by Apple on 15/1/2.
-//  Copyright (c) 2015年 itcast. All rights reserved.
+//  Created by orilme on 2019/8/11.
+//  Copyright © 2019 orilme. All rights reserved.
 //
 
-#import "UIKitCustomView.h"
+#import "ORUIKitCustomView.h"
 
-@implementation UIKitCustomView
-
+@implementation ORUIKitCustomView
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -27,6 +26,5 @@
     //画空心
     UIRectFrame(CGRectMake(10, 110, 50, 50));
 }
-
 
 @end
