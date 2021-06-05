@@ -21,4 +21,8 @@ static char kPhoneNumKey;
     return objc_getAssociatedObject(self, &kPhoneNumKey);
 }
 
+- (void)runtimeMessageTest {
+    NSLog(@"RuntimeExploreInfo---runtimeMessageTest---2");
+}
+
 @end

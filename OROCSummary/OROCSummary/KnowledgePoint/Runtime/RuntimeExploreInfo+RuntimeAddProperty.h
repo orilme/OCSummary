@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RuntimeExploreInfo (RuntimeAddProperty)
 @property (nonatomic, copy) NSString *phoneNum;
+- (void)runtimeMessageTest;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,7 @@
 //
 
 #import "RuntimeExploreVC.h"
+#import "RuntimeExploreInfo.h"
 #import "RuntimeExploreInfo+RuntimeAddProperty.h"
 #import <objc/message.h>
 #import "RuntimePersonModel.h"
@@ -59,6 +60,7 @@
 // 给分类增加属性
 - (void)runtimeAddProperty {
     RuntimeExploreInfo *test = [RuntimeExploreInfo new];
+    [test runtimeMessageTest];
     test.phoneNum = @"12342424242";
     NSLog(@"RuntimeAddProperty---%@", test.phoneNum);
 }

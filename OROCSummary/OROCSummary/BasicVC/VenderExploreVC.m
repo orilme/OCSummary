@@ -21,6 +21,7 @@
     self.meunArr = @[
     @{@"menuName": @"SDWebImage探索", @"className": @"SDWebImageVC"},
     @{@"menuName": @"模拟SDWebImage", @"className": @"SDWebImageSimulateVC"},
+    @{@"menuName": @"测试", @"className": @"TestVC"},
     ];
 }
 

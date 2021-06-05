@@ -18,6 +18,9 @@
 // MusicPlayerVC音乐播放用
 #import <AVFoundation/AVFoundation.h>
 
+//#import "AppDelegate+Trace.h"
+#import "AspectMananer.h"
+
 @interface AppDelegate ()
 
 @end
@@ -54,7 +57,23 @@
     [session setCategory:AVAudioSessionCategoryPlayback error:nil];
     [session setActive:YES error:nil];
     
+    [self setAspect];
     return YES;
+}
+
+- (void)setAspect {
+// 第一种
+    //method swizzle && AOP with one selector
+    //放开UIViewController+Trace.m的注释
+    
+// 第二种
+    //AOP with Dict
+    //放开AppDelegate+Trace.m的注释
+    //[AppDelegate setupLogging];
+    
+// 第三种
+    // AOP with Plist
+    [AspectMananer trackAspectHooks];
 }
 
 //首页

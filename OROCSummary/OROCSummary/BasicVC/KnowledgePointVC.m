@@ -77,7 +77,8 @@
                 @{@"menuName": @"RuntimeResolveMethod", @"className": @"RuntimeResolveMethodVC"},
                 @{@"menuName": @"RuntimeForwardMethod", @"className": @"RuntimeForwardMethodVC"},
                 @{@"menuName": @"RuntimeSignatureMethod", @"className": @"RuntimeSignatureMethodVC"},
-                @{@"menuName": @"Runtime实现防止button的快读点击", @"className":@"RuntimeButtonVC"},]}.mutableCopy,
+                @{@"menuName": @"Runtime实现防止button的快读点击", @"className":@"RuntimeButtonVC"},
+                @{@"menuName": @"埋点", @"className":@"AspectVC"},]}.mutableCopy,
     // RunLoop
     @{@"headName": @"RunLoop",
       @"isFold": @"1",
@@ -114,6 +115,11 @@
     @"value":   @[@{@"menuName": @"URLSeccion基本试用", @"className": @"URLSeccionOneVC"},
                  @{@"menuName": @"URLSeccion断点续传", @"className": @"URLSeccionTwoVC"},
                  @{@"menuName": @"HTTPCookieStorage基本使用", @"className": @"HTTPCookieStorageVC"},]}.mutableCopy,
+    // 库
+    @{@"headName": @"库",
+    @"isFold": @"1",
+    @"value":   @[@{@"menuName": @"静态库", @"className": @"StaticLibVC"},
+                  @{@"menuName": @"FrameWork", @"className": @"MyFrameWorkVC"},]}.mutableCopy,
     // 自定义视图
     @{@"headName": @"自定义视图",
       @"isFold": @"1",
@@ -138,7 +144,8 @@
                     @{@"menuName": @"AnimationDemo2", @"className": @"AnimationDemoTwoVC"},
                     @{@"menuName": @"AnimationDemo3", @"className": @"AnimationDemoThreeVC"},
                     @{@"menuName": @"类似于探探翻页动画", @"className": @"AnimationDemoFourVC"},
-                    @{@"menuName": @"仿真动画", @"className": @"UIDynamicController"},]}.mutableCopy,
+                    @{@"menuName": @"仿真动画", @"className": @"UIDynamicController"},
+                    @{@"menuName": @"TransferAnimation", @"className": @"TransferAnimationVC"},]}.mutableCopy,
     // 持久化存储、缓存
     @{@"headName": @"持久化存储、缓存",
       @"isFold": @"1",
