@@ -8,7 +8,9 @@
 
 #import "TestVC.h"
 
-@interface TestVC ()
+@interface TestVC () {
+    UITextField *totalPriceTextFiled;
+}
 
 @end
 
@@ -23,7 +25,45 @@
 //    [self test2];
     //[self testzhizhen];
     //[self testFrame];
+    
+    totalPriceTextFiled = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 200, 80)];
+    totalPriceTextFiled.returnKeyType = UIReturnKeyDone;
+    totalPriceTextFiled.keyboardType = UIKeyboardTypeNumberPad;
+    totalPriceTextFiled.textAlignment = NSTextAlignmentRight;
+    [self.view addSubview:totalPriceTextFiled];
+    
+    UIButton *testBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 300, 100, 80)];
+    testBtn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:testBtn];
+    [testBtn addTarget:self action:@selector(testTextField) forControlEvents:UIControlEventTouchUpInside];
+    
+    NSString *test = nil;
+    NSLog(@"test----%@---", test);
+    
+    [TestVC uniqueKey:^NSString *{
+        return @"hhaha";
+    }];
+    
+    [TestVC uniqueKey:^NSString *{
+        return @"";
+    }];
+    
+    [TestVC uniqueKey:^NSString *{
+        return nil;
+    }];
+}
 
+- (void)testTextField {
+    [totalPriceTextFiled becomeFirstResponder];
+}
+
++ (void)uniqueKey:(NSString *(^)(void))uniqueBlock {
+    NSLog(@"000----%@---", uniqueBlock());
+    NSLog(@"111----%@---", uniqueBlock);
+    NSString *key = uniqueBlock ? uniqueBlock() : nil;
+    NSString *key2 = uniqueBlock() ? uniqueBlock() : nil;
+    NSLog(@"key----%@---", key);
+    NSLog(@"key2----%@---", key2);
 }
 
 

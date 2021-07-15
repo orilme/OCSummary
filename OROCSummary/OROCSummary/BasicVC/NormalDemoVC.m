@@ -78,7 +78,6 @@
       @"value": @[@{@"menuName": @"城市列表1", @"className": @"CityListOneVC"},
                   @{@"menuName": @"城市列表2", @"className": @"CityListTwoVC"},
                 @{@"menuName": @"HttpCache", @"className": @"HttpCacheVC"},
-                  @{@"menuName": @"EditTableVC", @"className": @"EditTableVC"},
                   ]}.mutableCopy,
     ];
 }

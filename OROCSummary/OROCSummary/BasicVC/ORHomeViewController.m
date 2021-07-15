@@ -75,26 +75,18 @@
 
 // TabBar文字跟图标设置
 - (NSArray *)tabBarItemsAttributesForController {
-    NSDictionary *firstTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"知识点",
-                                                 CYLTabBarItemImage : @"account_normal",
-                                                 CYLTabBarItemSelectedImage : @"account_highlight"
-                                                 };
-    NSDictionary *secondTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"demo",
+    NSDictionary *firstTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"哈哈",
                                                   CYLTabBarItemImage : @"account_normal",
-                                                  CYLTabBarItemSelectedImage : @"account_highlight"
-                                                  };
-    NSDictionary *thirdTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"三方库",
-                                                 CYLTabBarItemImage : @"account_normal",
-                                                 CYLTabBarItemSelectedImage : @"account_highlight"
-                                                 };
-    NSDictionary *fourthTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"学习",
+                                                  CYLTabBarItemSelectedImage : @"account_highlight"};
+    NSDictionary *secondTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"知识点",
+                                                   CYLTabBarItemImage : @"account_normal",
+                                                   CYLTabBarItemSelectedImage : @"account_highlight"};
+    NSDictionary *thirdTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"demo",
                                                   CYLTabBarItemImage : @"account_normal",
-                                                  CYLTabBarItemSelectedImage : @"account_highlight"
-                                                  };
+                                                  CYLTabBarItemSelectedImage : @"account_highlight"};
+    NSDictionary *fourthTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"三方库",
+                                                   CYLTabBarItemImage : @"account_normal",
+                                                   CYLTabBarItemSelectedImage : @"account_highlight"};
     NSArray *tabBarItemsAttributes = @[
                                        firstTabBarItemsAttributes,
                                        secondTabBarItemsAttributes,

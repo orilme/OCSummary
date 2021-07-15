@@ -66,6 +66,7 @@
     @{@"headName": @"Tableview & CollectionView",
       @"isFold": @"1",
       @"value": @[@{@"menuName": @"Tableview左滑菜单", @"className": @"EditTableViewVC"},
+                @{@"menuName": @"EditTableVC", @"className": @"EditTableVC"},
                 @{@"menuName": @"通讯录点击效果", @"className": @"AdressBookTableVC"},
                 @{@"menuName": @"模拟TableView Delegate、Datasource", @"className": @"SimulateTableViewDelegateDatasourceVC"},
                 @{@"menuName": @"CollectionLayout使用", @"className": @"CircleCollectionVC"},
@@ -93,10 +94,6 @@
                  @{@"menuName": @"NSOperation", @"className": @"NSOperationVC"},
                  @{@"menuName": @"NSThread", @"className": @"NSThreadVC"},
                  @{@"menuName": @"锁(NSLock、@synchronized、NSCondition)", @"className": @"ThreadLockVC"},]}.mutableCopy,
-    // 组件化
-    @{@"headName": @"组件化",
-      @"isFold": @"1",
-      @"value": @[@{@"menuName": @"组件化举例", @"className": @"ModuleVC"}]}.mutableCopy,
     // 内存管理
     @{@"headName": @"内存管理",
       @"isFold": @"1",

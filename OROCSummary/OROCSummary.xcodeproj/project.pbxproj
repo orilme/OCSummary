@@ -1877,7 +1877,7 @@
 			children = (
 				4149E47A254ABBCF005B0447 /* Resource */,
 				4149E48A254ABD2A005B0447 /* BasicVC */,
-				41726EBB26666EC80046E597 /* Study */,
+				42577CEB26A015A20048F350 /* Study */,
 				4149E721254ABDF5005B0447 /* KnowledgePoint */,
 				4149E49D254ABDB8005B0447 /* Demo */,
 				4149EAFE254ABE03005B0447 /* Expand */,
@@ -1936,18 +1936,14 @@
 				4149E48D254ABD2A005B0447 /* ORBaseNavigationController.m */,
 				4149E48C254ABD2A005B0447 /* ORHomeViewController.h */,
 				4149E493254ABD2A005B0447 /* ORHomeViewController.m */,
+				4149E496254ABD2A005B0447 /* StudyVC.h */,
+				4149E48E254ABD2A005B0447 /* StudyVC.m */,
 				4149E491254ABD2A005B0447 /* KnowledgePointVC.h */,
 				4149E48B254ABD2A005B0447 /* KnowledgePointVC.m */,
 				4149E490254ABD2A005B0447 /* NormalDemoVC.h */,
 				4149E494254ABD2A005B0447 /* NormalDemoVC.m */,
 				4149E495254ABD2A005B0447 /* VenderExploreVC.h */,
 				4149E48F254ABD2A005B0447 /* VenderExploreVC.m */,
-				4149E496254ABD2A005B0447 /* StudyVC.h */,
-				4149E48E254ABD2A005B0447 /* StudyVC.m */,
-				41444C5525FB3BEE00035032 /* EditTableVC.h */,
-				41444C5625FB3BEE00035032 /* EditTableVC.m */,
-				41A589B0264BE55C00C06522 /* TestVC.h */,
-				41A589B1264BE55C00C06522 /* TestVC.m */,
 			);
 			path = BasicVC;
 			sourceTree = "<group>";
@@ -1968,7 +1964,7 @@
 				4149E59E254ABDB9005B0447 /* Menu */,
 				4149E527254ABDB9005B0447 /* MineJianShu */,
 				4149E53E254ABDB9005B0447 /* MultipleInherit(利用多态及协议多重继承) */,
-				4149E4BD254ABDB8005B0447 /* Page(滑动分页) */,
+				4149E4BD254ABDB8005B0447 /* Page */,
 				4149E5B7254ABDB9005B0447 /* PageScroll */,
 				4149E49E254ABDB8005B0447 /* PlaceholderView(空数据占位图) */,
 				4149E4F7254ABDB9005B0447 /* Progress */,
@@ -2043,11 +2039,11 @@
 			path = Two;
 			sourceTree = "<group>";
 		};
-		4149E4BD254ABDB8005B0447 /* Page(滑动分页) */ = {
+		4149E4BD254ABDB8005B0447 /* Page */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Page(滑动分页)";
+			path = Page;
 			sourceTree = "<group>";
 		};
 		4149E4BE254ABDB8005B0447 /* Carousel(轮播) */ = {
@@ -2745,7 +2741,6 @@
 				4149E76E254ABDF5005B0447 /* Notification */,
 				4149E77D254ABDF5005B0447 /* GameKit */,
 				4149E780254ABDF5005B0447 /* Multithreading */,
-				4149E790254ABDF5005B0447 /* Module */,
 				4149E799254ABDF5005B0447 /* UIDynamic */,
 				4149E7AB254ABDF5005B0447 /* Enum */,
 				4149E7AE254ABDF5005B0447 /* WebView */,
@@ -2961,8 +2956,8 @@
 		4149E790254ABDF5005B0447 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				4149E791254ABDF5005B0447 /* ModuleVC.h */,
 				4149E792254ABDF5005B0447 /* BViewController */,
+				4149E791254ABDF5005B0447 /* ModuleVC.h */,
 				4149E798254ABDF5005B0447 /* ModuleVC.m */,
 			);
 			path = Module;
@@ -3409,23 +3404,25 @@
 		4149E8A2254ABDF6005B0447 /* UITableview */ = {
 			isa = PBXGroup;
 			children = (
-				4149E8A3254ABDF6005B0447 /* SimulateTableViewDelegateDatasourceVC.m */,
-				4149E8A4254ABDF6005B0447 /* EditTableViewCell.h */,
+				4149E8B1254ABDF6005B0447 /* AdressBookTableVC.h */,
+				4149E8A9254ABDF6005B0447 /* AdressBookTableVC.m */,
+				4149E8A8254ABDF6005B0447 /* ChineseString.h */,
+				4149E8B3254ABDF6005B0447 /* ChineseString.m */,
+				4149E8AE254ABDF6005B0447 /* DropDownChooseProtocol.h */,
+				4149E8AB254ABDF6005B0447 /* DropDownListView.h */,
 				4149E8A5254ABDF6005B0447 /* DropDownListView.m */,
 				4149E8A6254ABDF6005B0447 /* EditTableViewVC.h */,
-				4149E8A7254ABDF6005B0447 /* pinyin.h */,
-				4149E8A8254ABDF6005B0447 /* ChineseString.h */,
-				4149E8A9254ABDF6005B0447 /* AdressBookTableVC.m */,
-				4149E8AA254ABDF6005B0447 /* SimulateTableViewDelegateDatasourceVC.h */,
-				4149E8AB254ABDF6005B0447 /* DropDownListView.h */,
+				4149E8B0254ABDF6005B0447 /* EditTableViewVC.m */,
+				4149E8B2254ABDF6005B0447 /* EditTableViewVC.xib */,
+				4149E8A4254ABDF6005B0447 /* EditTableViewCell.h */,
 				4149E8AC254ABDF6005B0447 /* EditTableViewCell.m */,
 				4149E8AD254ABDF6005B0447 /* EditTableViewCell.xib */,
-				4149E8AE254ABDF6005B0447 /* DropDownChooseProtocol.h */,
+				41444C5525FB3BEE00035032 /* EditTableVC.h */,
+				41444C5625FB3BEE00035032 /* EditTableVC.m */,
+				4149E8A7254ABDF6005B0447 /* pinyin.h */,
 				4149E8AF254ABDF6005B0447 /* pinyin.m */,
-				4149E8B0254ABDF6005B0447 /* EditTableViewVC.m */,
-				4149E8B1254ABDF6005B0447 /* AdressBookTableVC.h */,
-				4149E8B2254ABDF6005B0447 /* EditTableViewVC.xib */,
-				4149E8B3254ABDF6005B0447 /* ChineseString.m */,
+				4149E8AA254ABDF6005B0447 /* SimulateTableViewDelegateDatasourceVC.h */,
+				4149E8A3254ABDF6005B0447 /* SimulateTableViewDelegateDatasourceVC.m */,
 			);
 			path = UITableview;
 			sourceTree = "<group>";
@@ -4210,13 +4207,6 @@
 			path = Aspect;
 			sourceTree = "<group>";
 		};
-		41726EBB26666EC80046E597 /* Study */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Study;
-			sourceTree = "<group>";
-		};
 		41726EBC26666FAB0046E597 /* CMAopPackage */ = {
 			isa = PBXGroup;
 			children = (
@@ -4424,6 +4414,16 @@
 				41E3705325593CF100AA9AB5 /* ViewMethodVC.xib */,
 			);
 			path = ViewMethod;
+			sourceTree = "<group>";
+		};
+		42577CEB26A015A20048F350 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				41A589B0264BE55C00C06522 /* TestVC.h */,
+				41A589B1264BE55C00C06522 /* TestVC.m */,
+				4149E790254ABDF5005B0447 /* Module */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 		A5D56B3AC43983417A15D2C9 /* Pods */ = {
