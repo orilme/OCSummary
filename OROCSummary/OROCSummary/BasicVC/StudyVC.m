@@ -23,20 +23,13 @@
     self.meunArr = @[
         // 自定义视图
         @{@"headName": @"测试",
+          @"isFold": @"0",
+          @"value":   @[@{@"menuName": @"测试", @"className": @"TestVC"},
+                        @{@"menuName": @"渐变", @"className": @"TestShadeVC"}]}.mutableCopy,
+        // 组件化
+        @{@"headName": @"组件化",
           @"isFold": @"1",
-          @"value":   @[@{@"menuName": @"测试", @"className": @"TestVC"},,
-                        @{@"menuName": @"UIBezierPath1(属于UIKit，对Core Graphics的封装，OC语言)", @"className": @"CoreGraphicsVC"},
-                        @{@"menuName": @"UIBezierPath2", @"className": @"CoreGraphicsTwoVC"},
-                        @{@"menuName": @"CALayer基本使用(拉伸、旋转、圆角图片、CALayer)", @"className": @"CALayerVC"},
-                        @{@"menuName": @"自定义图层（位置和锚点）", @"className": @"CALayerCustomVC"},
-                        @{@"menuName": @"DrawRect示例", @"className": @"DrawRectDemoVC"},
-                        @{@"menuName": @"DrawRect示例2", @"className": @"DrawRectDemoaTwoVC"},
-                        @{@"menuName": @"DrawRect涂鸦", @"className": @"DrawRectScrawlVC"},
-                        @{@"menuName": @"DrawRect涂鸦2", @"className": @"DrawRectScrawlColorVC"},]}.mutableCopy,
-    // 组件化
-    @{@"headName": @"组件化",
-      @"isFold": @"1",
-      @"value": @[@{@"menuName": @"组件化举例", @"className": @"ModuleVC"}]}.mutableCopy,
+          @"value": @[@{@"menuName": @"组件化举例", @"className": @"ModuleVC"}]}.mutableCopy,
     ];
 }
 

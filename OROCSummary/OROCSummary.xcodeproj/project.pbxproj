@@ -635,6 +635,7 @@
 		41E3705925593CF100AA9AB5 /* LifeCycleTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E3705125593CF100AA9AB5 /* LifeCycleTwoVC.m */; };
 		41E3705A25593CF100AA9AB5 /* ViewMethodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41E3705325593CF100AA9AB5 /* ViewMethodVC.xib */; };
 		41E3705B25593CF100AA9AB5 /* ViewMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E3705425593CF100AA9AB5 /* ViewMethodVC.m */; };
+		42577CEE26A018830048F350 /* TestShadeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42577CED26A018830048F350 /* TestShadeVC.m */; };
 		62DCEB7100528A3856EBA1A2 /* Pods_OROCSummary_OROCSummaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA59645080BBEFB80B24D6C /* Pods_OROCSummary_OROCSummaryUITests.framework */; };
 		743BF02138C3CDCA17B86790 /* Pods_OROCSummaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2C25FCB285B24F8CAEBD4 /* Pods_OROCSummaryTests.framework */; };
 /* End PBXBuildFile section */
@@ -1797,6 +1798,8 @@
 		41E3705325593CF100AA9AB5 /* ViewMethodVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewMethodVC.xib; sourceTree = "<group>"; };
 		41E3705425593CF100AA9AB5 /* ViewMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMethodVC.m; sourceTree = "<group>"; };
 		41E3705525593CF100AA9AB5 /* ViewMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMethodVC.h; sourceTree = "<group>"; };
+		42577CEC26A018830048F350 /* TestShadeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestShadeVC.h; sourceTree = "<group>"; };
+		42577CED26A018830048F350 /* TestShadeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestShadeVC.m; sourceTree = "<group>"; };
 		62EC5F213230AFEE39A903CE /* Pods-OROCSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OROCSummary.debug.xcconfig"; path = "Target Support Files/Pods-OROCSummary/Pods-OROCSummary.debug.xcconfig"; sourceTree = "<group>"; };
 		697148FD2BEBAD88EE50BBB5 /* Pods-OROCSummary-OROCSummaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OROCSummary-OROCSummaryUITests.debug.xcconfig"; path = "Target Support Files/Pods-OROCSummary-OROCSummaryUITests/Pods-OROCSummary-OROCSummaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6EB2276C7ECC30E9D06E1A4F /* Pods-OROCSummaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OROCSummaryTests.release.xcconfig"; path = "Target Support Files/Pods-OROCSummaryTests/Pods-OROCSummaryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -4419,6 +4422,8 @@
 		42577CEB26A015A20048F350 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				42577CEC26A018830048F350 /* TestShadeVC.h */,
+				42577CED26A018830048F350 /* TestShadeVC.m */,
 				41A589B0264BE55C00C06522 /* TestVC.h */,
 				41A589B1264BE55C00C06522 /* TestVC.m */,
 				4149E790254ABDF5005B0447 /* Module */,
@@ -5180,6 +5185,7 @@
 				4149EA9D254ABDF9005B0447 /* Quartz2DVC.m in Sources */,
 				41726E7E26663E540046E597 /* TransferAnimationVC.m in Sources */,
 				4149E651254ABDBA005B0447 /* UIImage+CZ.m in Sources */,
+				42577CEE26A018830048F350 /* TestShadeVC.m in Sources */,
 				4149E6DD254ABDBA005B0447 /* FFToastAlertVC.m in Sources */,
 				4149E6AD254ABDBA005B0447 /* ChineseInclude.m in Sources */,
 				4149EACC254ABDF9005B0447 /* KeyboardThreeVC.m in Sources */,
