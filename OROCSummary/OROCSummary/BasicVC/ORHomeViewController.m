@@ -25,7 +25,7 @@
         
 //        self.tabBar.tintColor = RGB(182, 65, 65);
         
-        //显示未读
+        /// 显示未读
         UINavigationController  *discoverNav =(UINavigationController *)self.viewControllers[0];
         UITabBarItem *curTabBarItem=discoverNav.tabBarItem;
         [curTabBarItem setBadgeValue:@"2"];
@@ -48,19 +48,19 @@
 // 控制器设置
 - (NSArray *)mpViewControllers {
     
-    UIViewController *firstViewController = [[KnowledgePointVC alloc] init];
+    UIViewController *firstViewController = [[StudyVC alloc] init];
     UINavigationController *firstNavigationController = [[ORBaseNavigationController alloc]
                                                          initWithRootViewController:firstViewController];
     
-    UIViewController *secondViewController = [[NormalDemoVC alloc] init];
+    UIViewController *secondViewController = [[KnowledgePointVC alloc] init];
     UINavigationController *secondNavigationController = [[ORBaseNavigationController alloc]
                                                          initWithRootViewController:secondViewController];
     
-    UIViewController *thirdViewController = [[VenderExploreVC alloc] init];
+    UIViewController *thirdViewController = [[NormalDemoVC alloc] init];
     UINavigationController *thirdNavigationController = [[ORBaseNavigationController alloc]
                                                           initWithRootViewController:thirdViewController];
     
-    UIViewController *fourthViewController = [[StudyVC alloc] init];
+    UIViewController *fourthViewController = [[VenderExploreVC alloc] init];
     UINavigationController *fourthNavigationController = [[ORBaseNavigationController alloc]
                                                          initWithRootViewController:fourthViewController];
     
@@ -75,7 +75,7 @@
 
 // TabBar文字跟图标设置
 - (NSArray *)tabBarItemsAttributesForController {
-    NSDictionary *firstTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"哈哈",
+    NSDictionary *firstTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"测试",
                                                   CYLTabBarItemImage : @"account_normal",
                                                   CYLTabBarItemSelectedImage : @"account_highlight"};
     NSDictionary *secondTabBarItemsAttributes = @{ CYLTabBarItemTitle : @"知识点",

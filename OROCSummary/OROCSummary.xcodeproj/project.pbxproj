@@ -289,9 +289,6 @@
 		4149E9D3254ABDF8005B0447 /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E787254ABDF5005B0447 /* NSThreadVC.m */; };
 		4149E9D4254ABDF8005B0447 /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E78A254ABDF5005B0447 /* NSOperationVC.m */; };
 		4149E9D5254ABDF8005B0447 /* GCDSemaphoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E78E254ABDF5005B0447 /* GCDSemaphoreVC.m */; };
-		4149E9D6254ABDF8005B0447 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E794254ABDF5005B0447 /* Target_B.m */; };
-		4149E9D7254ABDF8005B0447 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E797254ABDF5005B0447 /* BViewController.m */; };
-		4149E9D8254ABDF8005B0447 /* ModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E798254ABDF5005B0447 /* ModuleVC.m */; };
 		4149E9D9254ABDF8005B0447 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E79B254ABDF5005B0447 /* DemoView.m */; };
 		4149E9DA254ABDF8005B0447 /* UIDynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4149E79C254ABDF5005B0447 /* UIDynamicController.m */; };
 		4149E9DB254ABDF8005B0447 /* UIDynamicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4149E79D254ABDF5005B0447 /* UIDynamicController.xib */; };
@@ -589,6 +586,13 @@
 		414AEB7B254BAC6C00E3319C /* MKMapViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414AEB70254BAC6C00E3319C /* MKMapViewVC.xib */; };
 		414AEB7F254BAC9300E3319C /* MapJumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AEB7E254BAC9300E3319C /* MapJumpVC.m */; };
 		414AEB83254BACC100E3319C /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 414AEB81254BACC100E3319C /* JZLocationConverter.m */; };
+		4155901726A30B10000E17FE /* MGJRouterMoudleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155900826A30B0F000E17FE /* MGJRouterMoudleVC.m */; };
+		4155901826A30B10000E17FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155900B26A30B0F000E17FE /* ViewController.swift */; };
+		4155901926A30B10000E17FE /* Target_C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155900C26A30B0F000E17FE /* Target_C.swift */; };
+		4155901A26A30B10000E17FE /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155900F26A30B0F000E17FE /* Target_B.m */; };
+		4155901B26A30B10000E17FE /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155901226A30B0F000E17FE /* BViewController.m */; };
+		4155901C26A30B10000E17FE /* C_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4155901426A30B0F000E17FE /* C_Extension.swift */; };
+		4155901D26A30B10000E17FE /* CTMediatorModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155901526A30B0F000E17FE /* CTMediatorModuleVC.m */; };
 		415B21342667D78B001AC531 /* StaticLibVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B21332667D78B001AC531 /* StaticLibVC.m */; };
 		415B216D2667DE89001AC531 /* StaticLibTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 415B216C2667DE89001AC531 /* StaticLibTool.bundle */; };
 		41726E6526663C3D0046E597 /* WSLAnimationFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 41726E4726663C3C0046E597 /* WSLAnimationFour.m */; };
@@ -1157,12 +1161,6 @@
 		4149E78D254ABDF5005B0447 /* GCDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
 		4149E78E254ABDF5005B0447 /* GCDSemaphoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphoreVC.m; sourceTree = "<group>"; };
 		4149E78F254ABDF5005B0447 /* NSThreadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
-		4149E791254ABDF5005B0447 /* ModuleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleVC.h; sourceTree = "<group>"; };
-		4149E794254ABDF5005B0447 /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
-		4149E795254ABDF5005B0447 /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
-		4149E796254ABDF5005B0447 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
-		4149E797254ABDF5005B0447 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
-		4149E798254ABDF5005B0447 /* ModuleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleVC.m; sourceTree = "<group>"; };
 		4149E79A254ABDF5005B0447 /* SpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringView.h; sourceTree = "<group>"; };
 		4149E79B254ABDF5005B0447 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 		4149E79C254ABDF5005B0447 /* UIDynamicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDynamicController.m; sourceTree = "<group>"; };
@@ -1715,6 +1713,17 @@
 		414AEB7E254BAC9300E3319C /* MapJumpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapJumpVC.m; sourceTree = "<group>"; };
 		414AEB81254BACC100E3319C /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
 		414AEB82254BACC100E3319C /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		4155900726A30B0F000E17FE /* CTMediatorModuleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediatorModuleVC.h; sourceTree = "<group>"; };
+		4155900826A30B0F000E17FE /* MGJRouterMoudleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouterMoudleVC.m; sourceTree = "<group>"; };
+		4155900B26A30B0F000E17FE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4155900C26A30B0F000E17FE /* Target_C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_C.swift; sourceTree = "<group>"; };
+		4155900F26A30B0F000E17FE /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
+		4155901026A30B0F000E17FE /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		4155901126A30B0F000E17FE /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		4155901226A30B0F000E17FE /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		4155901426A30B0F000E17FE /* C_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C_Extension.swift; sourceTree = "<group>"; };
+		4155901526A30B0F000E17FE /* CTMediatorModuleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediatorModuleVC.m; sourceTree = "<group>"; };
+		4155901626A30B0F000E17FE /* MGJRouterMoudleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouterMoudleVC.h; sourceTree = "<group>"; };
 		415B21322667D78B001AC531 /* StaticLibVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLibVC.h; sourceTree = "<group>"; };
 		415B21332667D78B001AC531 /* StaticLibVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticLibVC.m; sourceTree = "<group>"; };
 		415B216C2667DE89001AC531 /* StaticLibTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StaticLibTool.bundle; sourceTree = "<group>"; };
@@ -2959,30 +2968,13 @@
 		4149E790254ABDF5005B0447 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				4149E792254ABDF5005B0447 /* BViewController */,
-				4149E791254ABDF5005B0447 /* ModuleVC.h */,
-				4149E798254ABDF5005B0447 /* ModuleVC.m */,
+				4155900926A30B0F000E17FE /* CTMediatorModule */,
+				4155900726A30B0F000E17FE /* CTMediatorModuleVC.h */,
+				4155901526A30B0F000E17FE /* CTMediatorModuleVC.m */,
+				4155901626A30B0F000E17FE /* MGJRouterMoudleVC.h */,
+				4155900826A30B0F000E17FE /* MGJRouterMoudleVC.m */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		4149E792254ABDF5005B0447 /* BViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4149E793254ABDF5005B0447 /* Targets */,
-				4149E796254ABDF5005B0447 /* BViewController.h */,
-				4149E797254ABDF5005B0447 /* BViewController.m */,
-			);
-			path = BViewController;
-			sourceTree = "<group>";
-		};
-		4149E793254ABDF5005B0447 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				4149E794254ABDF5005B0447 /* Target_B.m */,
-				4149E795254ABDF5005B0447 /* Target_B.h */,
-			);
-			path = Targets;
 			sourceTree = "<group>";
 		};
 		4149E799254ABDF5005B0447 /* UIDynamic */ = {
@@ -4103,6 +4095,52 @@
 			path = JZLocationConverter;
 			sourceTree = "<group>";
 		};
+		4155900926A30B0F000E17FE /* CTMediatorModule */ = {
+			isa = PBXGroup;
+			children = (
+				4155900A26A30B0F000E17FE /* C_swift */,
+				4155900D26A30B0F000E17FE /* BViewController */,
+				4155901326A30B0F000E17FE /* C_Extension */,
+			);
+			path = CTMediatorModule;
+			sourceTree = "<group>";
+		};
+		4155900A26A30B0F000E17FE /* C_swift */ = {
+			isa = PBXGroup;
+			children = (
+				4155900B26A30B0F000E17FE /* ViewController.swift */,
+				4155900C26A30B0F000E17FE /* Target_C.swift */,
+			);
+			path = C_swift;
+			sourceTree = "<group>";
+		};
+		4155900D26A30B0F000E17FE /* BViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4155900E26A30B0F000E17FE /* Targets */,
+				4155901126A30B0F000E17FE /* BViewController.h */,
+				4155901226A30B0F000E17FE /* BViewController.m */,
+			);
+			path = BViewController;
+			sourceTree = "<group>";
+		};
+		4155900E26A30B0F000E17FE /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				4155900F26A30B0F000E17FE /* Target_B.m */,
+				4155901026A30B0F000E17FE /* Target_B.h */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		4155901326A30B0F000E17FE /* C_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4155901426A30B0F000E17FE /* C_Extension.swift */,
+			);
+			path = C_Extension;
+			sourceTree = "<group>";
+		};
 		415B21312667D774001AC531 /* StaticLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -4930,11 +4968,13 @@
 				4181D558255D41FB00B78863 /* AlBinaryTreeVC.m in Sources */,
 				4149EABF254ABDF9005B0447 /* NavigationOneVC.m in Sources */,
 				41726E6F26663C3D0046E597 /* WSLTransitionAnimationTwo.m in Sources */,
+				4155901926A30B10000E17FE /* Target_C.swift in Sources */,
 				414AEB77254BAC6C00E3319C /* CoreLocationVC.m in Sources */,
 				4149EA43254ABDF9005B0447 /* WaterView.m in Sources */,
 				4149E71E254ABDBB005B0447 /* YSHYAssetsCell.m in Sources */,
 				4149E9EF254ABDF8005B0447 /* RuntimeExploreInfo.m in Sources */,
 				4149E9FE254ABDF8005B0447 /* CABasicAnimationVC.m in Sources */,
+				4155901C26A30B10000E17FE /* C_Extension.swift in Sources */,
 				4149EB51254AC8BD005B0447 /* main.m in Sources */,
 				4149E9FA254ABDF8005B0447 /* AnimationDemoVC.m in Sources */,
 				4149EA9A254ABDF9005B0447 /* ORCustomTwoView.m in Sources */,
@@ -4945,6 +4985,7 @@
 				4149EA81254ABDF9005B0447 /* HMPerson.m in Sources */,
 				4149EA88254ABDF9005B0447 /* KVCPerson.m in Sources */,
 				4149E6A6254ABDBA005B0447 /* GYZCityGroupCell.m in Sources */,
+				4155901A26A30B10000E17FE /* Target_B.m in Sources */,
 				4149E9BB254ABDF8005B0447 /* NSCacheVC.m in Sources */,
 				4149EA4C254ABDF9005B0447 /* InheritVC.m in Sources */,
 				4149E64B254ABDBA005B0447 /* JJCPayCodeTextFieldCell.m in Sources */,
@@ -4978,6 +5019,7 @@
 				4149E648254ABDBA005B0447 /* JJCPayCodeTextField.m in Sources */,
 				4149EA99254ABDF9005B0447 /* Quartz2DLockVC.m in Sources */,
 				4149E70A254ABDBA005B0447 /* CustomPhotoAlbumVC.m in Sources */,
+				4155901B26A30B10000E17FE /* BViewController.m in Sources */,
 				4149E9BD254ABDF8005B0447 /* AdvanceUser.m in Sources */,
 				4149EB3A254ABE03005B0447 /* NSDate+CupertinoYankee.m in Sources */,
 				4149EA38254ABDF9005B0447 /* ArcCenterView.m in Sources */,
@@ -4997,6 +5039,7 @@
 				4149EA20254ABDF8005B0447 /* YUReplicatorAnimation.m in Sources */,
 				4149E652254ABDBA005B0447 /* MusicPlayerVC.m in Sources */,
 				41444C5725FB3BEE00035032 /* EditTableVC.m in Sources */,
+				4155901726A30B10000E17FE /* MGJRouterMoudleVC.m in Sources */,
 				4149EA9B254ABDF9005B0447 /* ORLineViewVC.m in Sources */,
 				4149E9B1254ABDF8005B0447 /* NSCodingVC.m in Sources */,
 				41726EDF26666FAC0046E597 /* Test2ViewController.m in Sources */,
@@ -5010,7 +5053,6 @@
 				4149EA83254ABDF9005B0447 /* HMStudent.m in Sources */,
 				4149E9F2254ABDF8005B0447 /* RuntimeForwardMethodVC.m in Sources */,
 				4149EB42254ABE03005B0447 /* introductoryPagesView.m in Sources */,
-				4149E9D7254ABDF8005B0447 /* BViewController.m in Sources */,
 				4149EA24254ABDF8005B0447 /* TabbarBasicUseVC.m in Sources */,
 				4149EAA1254ABDF9005B0447 /* UIImage+CZ.m in Sources */,
 				4149EAA8254ABDF9005B0447 /* DrawRectDemoaTwoVC.m in Sources */,
@@ -5038,6 +5080,7 @@
 				4149E71A254ABDBB005B0447 /* EqualSpaceFlowLayout.m in Sources */,
 				414AEB83254BACC100E3319C /* JZLocationConverter.m in Sources */,
 				4149EAD1254ABDF9005B0447 /* BlockVC.m in Sources */,
+				4155901D26A30B10000E17FE /* CTMediatorModuleVC.m in Sources */,
 				4149EA03254ABDF8005B0447 /* CAKeyframeAnimationVC.m in Sources */,
 				4149E9AE254ABDF8005B0447 /* RunLoopVC.m in Sources */,
 				4149E691254ABDBA005B0447 /* WheelVC.m in Sources */,
@@ -5111,7 +5154,6 @@
 				4149EA29254ABDF8005B0447 /* ProtocolStudent.m in Sources */,
 				4149E6D6254ABDBA005B0447 /* LLSegmentBarVC.m in Sources */,
 				41726ED826666FAC0046E597 /* UIViewController+Trace.m in Sources */,
-				4149E9D8254ABDF8005B0447 /* ModuleVC.m in Sources */,
 				4149E6DE254ABDBA005B0447 /* NSString+FFToast.m in Sources */,
 				4149EA80254ABDF9005B0447 /* HMDataTool.m in Sources */,
 				4149EACF254ABDF9005B0447 /* BlockTwoVC.m in Sources */,
@@ -5213,7 +5255,6 @@
 				4149EA01254ABDF8005B0447 /* CATransitionVC.m in Sources */,
 				4149E497254ABD2A005B0447 /* KnowledgePointVC.m in Sources */,
 				4149EAB3254ABDF9005B0447 /* CALayerVC.m in Sources */,
-				4149E9D6254ABDF8005B0447 /* Target_B.m in Sources */,
 				4149EA98254ABDF9005B0447 /* ORLineView.m in Sources */,
 				4149EAAF254ABDF9005B0447 /* CZLockView.m in Sources */,
 				4149EA47254ABDF9005B0447 /* SquareView.m in Sources */,
@@ -5317,6 +5358,7 @@
 				41726E7126663C3D0046E597 /* WSLAnimationOne.m in Sources */,
 				4149E6DA254ABDBA005B0447 /* HttpCacheVC.m in Sources */,
 				414AEB7A254BAC6C00E3319C /* MyAnnotationView.m in Sources */,
+				4155901826A30B10000E17FE /* ViewController.swift in Sources */,
 				4149EA27254ABDF8005B0447 /* ProtocolNurse.m in Sources */,
 				4149E697254ABDBA005B0447 /* ClassBModel.m in Sources */,
 				41726E6D26663C3D0046E597 /* WSLAnimationThree.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ModuleVC.h
+//  CTMediatorModuleVC.h
 //  OROCSummary
 //
 //  Created by orilme on 2020/9/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ModuleVC : UIViewController
+@interface CTMediatorModuleVC : UIViewController
 
 @end
 

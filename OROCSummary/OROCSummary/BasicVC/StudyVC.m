@@ -29,7 +29,8 @@
         // 组件化
         @{@"headName": @"组件化",
           @"isFold": @"1",
-          @"value": @[@{@"menuName": @"组件化举例", @"className": @"ModuleVC"}]}.mutableCopy,
+          @"value": @[@{@"menuName": @"组件化-CTMediator", @"className": @"CTMediatorModuleVC"},
+                      @{@"menuName": @"组件化-MGJRouter", @"className": @"MGJRouterMoudleVC"}]}.mutableCopy,
     ];
 }
 
@@ -53,39 +54,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *dict = self.meunArr[indexPath.section][@"value"][indexPath.row];
-    if ([dict[@"className"] isEqualToString:@"LifeCycleOneVC"]) {
-        UIStoryboard *secondStoryBoard = [UIStoryboard storyboardWithName:@"LifeCycle" bundle:nil];
-        UIViewController* test2obj = [secondStoryBoard instantiateViewControllerWithIdentifier:@"LifeCycleOneVC"];
-        [self.navigationController pushViewController:test2obj animated:YES];
-    }else if ([dict[@"className"] isEqualToString:@"UIDynamicController"]
-              || [dict[@"className"] isEqualToString:@"UITextViewAutoHeightVC"]) {
-        UIViewController *vc = [[NSClassFromString(dict[@"className"]) alloc]initWithNibName:dict[@"className"] bundle:nil];
-        vc.title = dict[@"menuName"];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if ([dict[@"className"] isEqualToString:@"CustomBadgeVC"]) {
-        UITabBarController *tabController = [UITabBarController new];
-        CustomBadgeVC *controller1 = [[CustomBadgeVC alloc] initWithText:@"haha"];
-        CustomBadgeVC *controller2 = [[CustomBadgeVC alloc] initWithText:@"hehe"];
-        tabController.viewControllers = @[ controller1, controller2];
-        
-        UITabBarItem *item0 = tabController.tabBar.items[0];
-        item0.title = @"haha";
-        item0.image = [UIImage imageNamed:@"icon_info"];
-        
-        UITabBarItem *item1 = tabController.tabBar.items[1];
-        item1.title = @"hehe";
-        item1.image = [UIImage imageNamed:@"icon_news"];
-        
-        //通过这两个参数来调整badge位置
-        [tabController.tabBar setTabIconWidth:29];
-        [tabController.tabBar setBadgeTop:9];
-
-        [self.navigationController pushViewController:tabController animated:YES];
-    }else {
-        UIViewController *vc = [[NSClassFromString(dict[@"className"]) alloc]init];
-        vc.title = dict[@"menuName"];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+    UIViewController *vc = [[NSClassFromString(dict[@"className"]) alloc]init];
+    vc.title = dict[@"menuName"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {

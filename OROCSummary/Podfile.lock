@@ -22,12 +22,14 @@ PODS:
   - HandyFrame (1.2.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - MGJRouter (0.10.0)
   - MJRefresh (3.4.3)
   - ORModules (0.8.0):
     - ORModules/A (= 0.8.0)
     - ORModules/A_Category (= 0.8.0)
     - ORModules/B_Category (= 0.8.0)
     - ORModules/BaseViewController (= 0.8.0)
+    - ORModules/MGJRouterMoudle (= 0.8.0)
     - ORModules/UIKit (= 0.8.0)
   - ORModules/A (0.8.0):
     - CTMediator
@@ -38,6 +40,8 @@ PODS:
   - ORModules/B_Category (0.8.0):
     - CTMediator
   - ORModules/BaseViewController (0.8.0)
+  - ORModules/MGJRouterMoudle (0.8.0):
+    - MGJRouter
   - ORModules/UIKit (0.8.0)
   - SDWebImage (5.8.4):
     - SDWebImage/Core (= 5.8.4)
@@ -65,6 +69,7 @@ SPEC REPOS:
     - HandyFrame
     - Masonry
     - MBProgressHUD
+    - MGJRouter
     - MJRefresh
     - SDWebImage
     - WechatOpenSDK
@@ -81,8 +86,9 @@ SPEC CHECKSUMS:
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  ORModules: 42d104cc2854730369cc8c3536ffc8616a7c94da
+  ORModules: 5fac35b915c3938ab6beb836e132ba7bf4d1efc1
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
